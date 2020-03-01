@@ -4,6 +4,8 @@ This is the repositary for all the Morpheus testnets of Desmos.
 
 ## Latest Testnet
 
+The latest [genesis file](3000/genesis.json).
+
 ### Chain ID
 
 ```sh
