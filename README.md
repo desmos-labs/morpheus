@@ -35,6 +35,10 @@ build_tags: netgo ledger
 go: go version go1.13.5 darwin/amd64
 ```
 
+### Genesis state
+
+Genesis state was exported from `morpheus-3000` at height `845600`.
+
 ### Genesis file hash
 
 You can verify with the sorted genesis file.
