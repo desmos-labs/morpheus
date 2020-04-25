@@ -4,24 +4,24 @@ This is the repositary for all the Morpheus testnets of Desmos.
 
 ## Latest Testnet
 
-The latest [genesis file](4000/genesis.json).
+The latest [genesis file](3000/genesis.json).
 
 ### Chain ID
 
 ```sh
-morpheus-4000
+morpheus-3000
 ```
 
 ### Genesis Time
 
 ```sh
-2020-04-25T10:00:00Z
+2020-03-01T00:00:00Z
 ```
 
 ### Desmos Version
 
 ```sh
-v0.4.0
+v0.3.0
 ```
 
 ```sh
@@ -29,8 +29,8 @@ desmosd version --long
 name: Desmos
 server_name: desmosd
 client_name: desmoscli
-version: 0.4.0
-commit: 17cea9ac894298cd1ebc8c0287447e6c5fd12ca7
+version: 0.3.0
+commit: ec77e479eb1bbde3b506de7bd17b520cc9a2143b
 build_tags: netgo ledger
 go: go version go1.13.5 darwin/amd64
 ```
@@ -41,13 +41,20 @@ You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-65948c4ac43b8765b526a39316ac3dd57c36abad8bdff847f101d1d22249f2d7  -
+24494bd9d0800332c4ffdee43b9ef5702cd52bc52c907726197a55990ce5600c  -
+```
+
+### Seed node
+
+```sh
+8307c16191e249d6d3871ce764262d40d9cf249f@34.74.131.47:26656
 ```
 
 ### Persistent Peers
 
 ```sh
-e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656
+89f913e84b58da594eb449fca7b0fcb540e52d05@35.240.254.97:26656
+5ebcf26295e966c4d705ce5f42e78203c94ad98d@34.76.79.154:26656
 ```
 
 ### Parameters
