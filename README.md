@@ -37,7 +37,7 @@ go: go version go1.13.5 darwin/amd64
 
 ### Genesis state
 
-Genesis state was exported from `morpheus-3000` at height `845600`.
+Genesis state was exported from `morpheus-3000` at height [`845600`](https://morpheus-3000.desmos.network/blocks/845600).
 
 ### Genesis file hash
 
