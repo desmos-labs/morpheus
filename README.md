@@ -29,8 +29,8 @@ desmosd version --long
 name: Desmos
 server_name: desmosd
 client_name: desmoscli
-version: 0.4.0
-commit: 17cea9ac894298cd1ebc8c0287447e6c5fd12ca7
+version: 0.4.0-6-g7c7caa9
+commit: 7c7caa9295bfb0320d06eb3be47d4c4fed15975b 
 build_tags: netgo ledger
 go: go version go1.13.5 darwin/amd64
 ```
@@ -45,7 +45,7 @@ You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-65948c4ac43b8765b526a39316ac3dd57c36abad8bdff847f101d1d22249f2d7  -
+dc6bcadf360f037450066bfad89bc54c467810240ac93a317bf5f26cab80079f  -
 ```
 
 ### Persistent Peers
