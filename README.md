@@ -76,4 +76,4 @@ __Fee__ : `upotin`
 
 ### Faucet
 
-https://faucet.desmos.networks
+https://faucet.desmos.network
