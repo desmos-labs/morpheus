@@ -45,7 +45,7 @@ You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-ff1a8daed261a1c929523a8f78cf8330b84c166e8e3102b54e12198d266f182c  -
+f15c917929e670f0d8aa45aba95122ba39aaba52d6f1a921a7ae25a88c9f7281  -
 ```
 
 ### Persistent Peers
