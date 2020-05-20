@@ -15,7 +15,7 @@ morpheus-4001
 ### Genesis Time
 
 ```sh
-2020-04-18T12:30:00Z
+2020-05-20T10:00:00Z
 ```
 
 ### Desmos Version
@@ -37,7 +37,7 @@ go: go version go1.14.3 linux/amd64
 
 ### Genesis state
 
-Genesis state was exported from `morpheus-4000` at height [`355800`](https://morpheus-4000.desmos.network/blocks/355800).
+Genesis state was exported from `morpheus-4000` at height [`380000`](https://morpheus-4000.desmos.network/blocks/380000).
 
 ### Genesis file hash
 
