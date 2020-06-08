@@ -1,39 +1,55 @@
-# Morpheus testnets
-> Official repository containing all the [Desmos](https://github.com/desmos-labs/desmos) testnets' data.
+# Morpheus Testnets
 
-## Latest running testnet
+This is the repositary for all the Morpheus testnets of Desmos.
 
-### Chain data
-| Data | Value | 
-| :--- | :---: |
-| Genesis file |  [genesis file](genesis.json) |
-| Chain ID | `morpheus-5000` |
-| Genesis time | `2020-06-08T11:00:00.000Z` |
+## Latest Testnet
+
+The latest [genesis file](4001/genesis.json).
+
+### Chain ID
+
+```sh
+morpheus-4001
+```
+
+### Genesis Time
+
+```sh
+2020-05-20T10:00:00Z
+```
 
 ### Desmos Version
+
 ```sh
-$ desmosd version --long
+v0.5.1
+```
+
+```sh
+desmosd version --long
 name: Desmos
 server_name: desmosd
 client_name: desmoscli
-version: 0.6.2
-commit: b28e87a2488b51c84b3268a5ea4236d97d00e246
+version: 0.5.1
+commit: fba4226f61b0a2224c013362fb41d65bd3b663a9
 build_tags: netgo ledger
-go: go version go1.14.4 linux/amd64
+go: go version go1.14.3 linux/amd64
 ```
 
 ### Genesis state
-The genesis state was exported from `morpheus-4001` at height [`300000`](https://morpheus-4001.desmos.network/blocks/300000).
+
+Genesis state was exported from `morpheus-4000` at height [`380000`](https://morpheus-4000.desmos.network/blocks/380000).
 
 ### Genesis file hash
+
 You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-8f8c8c82ff773ef543484124b7cf49467a4e88cf03eab095e869f134ad3eac1e  -
+f15c917929e670f0d8aa45aba95122ba39aaba52d6f1a921a7ae25a88c9f7281  -
 ```
 
 ### Persistent Peers
+
 ```sh
 e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656
 ```
@@ -41,6 +57,7 @@ e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656
 ### Parameters
 
 #### Slashing
+
 ```json
 {
   "downtime_jail_duration": "600000000000",
@@ -53,8 +70,10 @@ e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656
 ```
 
 ### Tokens
+
 __Staking__ : `udaric` \
 __Fee__ : `upotin`
 
 ### Faucet
+
 https://faucet.desmos.network
