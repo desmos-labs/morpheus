@@ -1,31 +1,18 @@
-# Morpheus Testnets
+# Morpheus testnets
+> Official repository containing all the [Desmos](https://github.com/desmos-labs/desmos) testnets' data.
 
-This is the repositary for all the Morpheus testnets of Desmos.
+## Latest running testnet
 
-## Latest Testnet
-
-The latest [genesis file](4001/genesis.json).
-
-### Chain ID
-
-```sh
-morpheus-4001
-```
-
-### Genesis Time
-
-```sh
-2020-05-20T10:00:00Z
-```
+### Chain data
+| Data | Value | 
+| :--- | :---: |
+| Genesis file |  [genesis file](genesis.json) |
+| Chain ID | `morpheus-4001` |
+| Genesis time | `2020-05-20T10:00:00Z` |
 
 ### Desmos Version
-
 ```sh
-v0.5.1
-```
-
-```sh
-desmosd version --long
+$ desmosd version --long
 name: Desmos
 server_name: desmosd
 client_name: desmoscli
@@ -36,11 +23,9 @@ go: go version go1.14.3 linux/amd64
 ```
 
 ### Genesis state
-
-Genesis state was exported from `morpheus-4000` at height [`380000`](https://morpheus-4000.desmos.network/blocks/380000).
+The genesis state was exported from `morpheus-4000` at height [`380000`](https://morpheus-4000.desmos.network/blocks/380000).
 
 ### Genesis file hash
-
 You can verify with the sorted genesis file.
 
 ```sh
@@ -49,15 +34,13 @@ f15c917929e670f0d8aa45aba95122ba39aaba52d6f1a921a7ae25a88c9f7281  -
 ```
 
 ### Persistent Peers
-
 ```sh
-e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656
+7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656
 ```
 
 ### Parameters
 
 #### Slashing
-
 ```json
 {
   "downtime_jail_duration": "600000000000",
@@ -70,10 +53,8 @@ e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656
 ```
 
 ### Tokens
-
 __Staking__ : `udaric` \
 __Fee__ : `upotin`
 
 ### Faucet
-
 https://faucet.desmos.network
