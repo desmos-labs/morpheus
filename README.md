@@ -35,7 +35,7 @@ jq -S -c -M '' genesis.json | shasum -a 256
 
 ### Persistent Peers
 ```sh
-e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656
+7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656
 ```
 
 ### Parameters
