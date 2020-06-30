@@ -1,46 +1,66 @@
-# Morpheus testnets
-> Official repository containing all the [Desmos](https://github.com/desmos-labs/desmos) testnets' data.
+# Morpheus Testnets
 
-## Latest running testnet
+This is the repositary for all the Morpheus testnets of Desmos.
 
-### Chain data
-| Data | Value | 
-| :--- | :---: |
-| Genesis file |  [genesis file](genesis.json) |
-| Chain ID | `morpheus-4001` |
-| Genesis time | `2020-05-20T10:00:00Z` |
+## Latest Testnet
+
+The latest [genesis file](3000/genesis.json).
+
+### Chain ID
+
+```sh
+morpheus-3000
+```
+
+### Genesis Time
+
+```sh
+2020-03-01T00:00:00Z
+```
 
 ### Desmos Version
+
 ```sh
-$ desmosd version --long
+v0.3.0
+```
+
+```sh
+desmosd version --long
 name: Desmos
 server_name: desmosd
 client_name: desmoscli
-version: 0.5.1
-commit: fba4226f61b0a2224c013362fb41d65bd3b663a9
+version: 0.3.0
+commit: ec77e479eb1bbde3b506de7bd17b520cc9a2143b
 build_tags: netgo ledger
-go: go version go1.14.3 linux/amd64
+go: go version go1.13.5 darwin/amd64
 ```
 
-### Genesis state
-The genesis state was exported from `morpheus-4000` at height [`380000`](https://morpheus-4000.desmos.network/blocks/380000).
-
 ### Genesis file hash
+
 You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-f15c917929e670f0d8aa45aba95122ba39aaba52d6f1a921a7ae25a88c9f7281  -
+24494bd9d0800332c4ffdee43b9ef5702cd52bc52c907726197a55990ce5600c  -
+```
+
+### Seed node
+
+```sh
+8307c16191e249d6d3871ce764262d40d9cf249f@34.74.131.47:26656
 ```
 
 ### Persistent Peers
+
 ```sh
-7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656
+89f913e84b58da594eb449fca7b0fcb540e52d05@35.240.254.97:26656
+5ebcf26295e966c4d705ce5f42e78203c94ad98d@34.76.79.154:26656
 ```
 
 ### Parameters
 
 #### Slashing
+
 ```json
 {
   "downtime_jail_duration": "600000000000",
@@ -53,8 +73,10 @@ f15c917929e670f0d8aa45aba95122ba39aaba52d6f1a921a7ae25a88c9f7281  -
 ```
 
 ### Tokens
+
 __Staking__ : `udaric` \
 __Fee__ : `upotin`
 
 ### Faucet
-https://faucet.desmos.network
+
+https://faucet.desmos.networks
