@@ -12,7 +12,7 @@ rm ~/.desmosd/config/priv_validator_key.json
 desmosd unsafe-reset-all
 
 # Copy the chain genesis file
-curl https://raw.githubusercontent.com/desmos-labs/morpheus/master/5000/genesis.json > ~/.desmosd/config/genesis.json
+curl https://raw.githubusercontent.com/desmos-labs/morpheus/master/4001/genesis.json > ~/.desmosd/config/genesis.json
 
 # Copy the ZIP file into your ~/.desmosd/data folder an unzip it
 cd ~/.desmosd/data
