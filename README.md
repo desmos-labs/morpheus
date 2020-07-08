@@ -7,8 +7,8 @@
 | Data | Value | 
 | :--- | :---: |
 | Genesis file |  [genesis file](genesis.json) |
-| Chain ID | `morpheus-4001` |
-| Genesis time | `2020-05-20T10:00:00Z` |
+| Chain ID | `morpheus-7000` |
+| Genesis time | `2020-07-08T06:00:00Z` |
 
 ### Desmos Version
 ```sh
@@ -25,18 +25,18 @@ go: go version go1.14.4 linux/amd64
 To checkout this version run: 
 
 ```
-git checkout tags/v0.5.3
+git checkout tags/v0.8.1
 ```
 
 ### Genesis state
-The genesis state was exported from `morpheus-4000` at height [`380000`](https://morpheus-4000.desmos.network/blocks/380000).
+The genesis state was exported from `morpheus-4001` at height [`760000`](https://morpheus-4001.desmos.network/blocks/760000).
 
 ### Genesis file hash
 You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-f15c917929e670f0d8aa45aba95122ba39aaba52d6f1a921a7ae25a88c9f7281  -
+79ead694413f6cffe359cb7909d74273c141da84ad6cf9d50bfbe43024771d15  -
 ```
 
 ### Persistent Peers
@@ -47,13 +47,24 @@ f15c917929e670f0d8aa45aba95122ba39aaba52d6f1a921a7ae25a88c9f7281  -
 ### Parameters
 
 #### Slashing
+| Parameter | Value | Description |
+| :-------: | :---: | :---------- |
+| `downtime_jail_duration` | `600000000000` | |
+| `downtime_jail_duration` |  `600000000000` | |
+| `max_evidence_age` |  `120000000000` | |
+| `min_signed_per_window` |  `0.050000000000000000` | |
+| `signed_blocks_window` |  `720` | Approximately 1 hour with 5 seconds block |
+| `slash_fraction_double_sign` |  `0.050000000000000000` | Validator will be jailed for downtime if  missing 684 blocks in 1 hour
+| `slash_fraction_downtime` |  `0.010000000000000000` | |
+
+JSON:
 ```json
 {
   "downtime_jail_duration": "600000000000",
   "max_evidence_age": "120000000000",
   "min_signed_per_window": "0.050000000000000000",
-  "signed_blocks_window": "720", // approximately 1 hour with 5 seconds block
-  "slash_fraction_double_sign": "0.050000000000000000", // validator will be jailed for downtime if missing 684 blocks in 1 hour
+  "signed_blocks_window": "720",
+  "slash_fraction_double_sign": "0.050000000000000000",
   "slash_fraction_downtime": "0.010000000000000000"
 }
 ```
