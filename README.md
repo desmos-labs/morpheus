@@ -17,7 +17,7 @@ name: Desmos
 server_name: desmosd
 client_name: desmoscli
 version: 0.8.1
-commit: 7a44549bbb364db5b4473da7283adbfb1944f218
+commit: 67b3951128d5589e819fd769158d7a341f3161b5
 build_tags: netgo ledger
 go: go version go1.14.4 linux/amd64
 ```
