@@ -16,8 +16,8 @@ $ desmosd version --long
 name: Desmos
 server_name: desmosd
 client_name: desmoscli
-version: 0.8.1
-commit: 67b3951128d5589e819fd769158d7a341f3161b5
+version: 0.8.2
+commit: 7d8c261272aba3692fe205d5e473cd469a814de1
 build_tags: netgo ledger
 go: go version go1.14.4 linux/amd64
 ```
@@ -25,7 +25,7 @@ go: go version go1.14.4 linux/amd64
 To checkout this version run: 
 
 ```
-git checkout tags/v0.8.1
+git checkout tags/v0.8.2
 ```
 
 ### Genesis state
