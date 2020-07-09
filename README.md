@@ -7,8 +7,8 @@
 | Data | Value | 
 | :--- | :---: |
 | Genesis file |  [genesis file](genesis.json) |
-| Chain ID | `morpheus-7000` |
-| Genesis time | `2020-07-08T06:00:00Z` |
+| Chain ID | `morpheus-7001` |
+| Genesis time | `2020-07-09T10:00:00Z` |
 
 ### Desmos Version
 ```sh
@@ -36,7 +36,7 @@ You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-79ead694413f6cffe359cb7909d74273c141da84ad6cf9d50bfbe43024771d15  -
+d58db84eb3978e1c290a0fbd4a0606e5d7249fa9543e0643313b86c694cd02f6  -
 ```
 
 ### Persistent Peers
