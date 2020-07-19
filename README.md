@@ -54,13 +54,12 @@ d58db84eb3978e1c290a0fbd4a0606e5d7249fa9543e0643313b86c694cd02f6  -
 #### Slashing
 | Parameter | Value | Description |
 | :-------: | :---: | :---------- |
-| `downtime_jail_duration` | `600000000000` | |
-| `downtime_jail_duration` |  `600000000000` | |
-| `max_evidence_age` |  `120000000000` | |
+| `downtime_jail_duration` | `600000000000` | 10 minutes |
+| `max_evidence_age` |  `120000000000` | 20 minutes |
 | `min_signed_per_window` |  `0.050000000000000000` | |
-| `signed_blocks_window` |  `720` | Approximately 1 hour with 5 seconds block |
-| `slash_fraction_double_sign` |  `0.050000000000000000` | Validator will be jailed for downtime if  missing 684 blocks in 1 hour
-| `slash_fraction_downtime` |  `0.010000000000000000` | |
+| `signed_blocks_window` |  `720` | Validator will be jailed for downtime if  missing 684 blocks, approximately 1 hour with 5 seconds block |
+| `slash_fraction_double_sign` |  `0.050000000000000000` | 5% | 
+| `slash_fraction_downtime` |  `0.010000000000000000` | 1% |
 
 JSON:
 ```json
