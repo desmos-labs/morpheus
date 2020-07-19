@@ -39,6 +39,11 @@ jq -S -c -M '' genesis.json | shasum -a 256
 d58db84eb3978e1c290a0fbd4a0606e5d7249fa9543e0643313b86c694cd02f6  -
 ```
 
+### Seed Nodes
+```sh
+08c7b07000675ed6c0872f9a95075e5e9bc2e619@172.31.0.115:26656
+```
+
 ### Persistent Peers
 ```sh
 7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656
