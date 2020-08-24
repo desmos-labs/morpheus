@@ -39,23 +39,28 @@ jq -S -c -M '' genesis.json | shasum -a 256
 7478342ac03de9afbd7e5d734f604c6360f62a517188cb665d69d50690170e6a  -
 ```
 
+### Seed Nodes
+```sh
+08c7b07000675ed6c0872f9a95075e5e9bc2e619@18.162.149.156:26656
+```
+
 ### Persistent Peers
 ```sh
 7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656
 ```
+[A list of community peers](PEERS.md).
 
 ### Parameters
 
 #### Slashing
 | Parameter | Value | Description |
 | :-------: | :---: | :---------- |
-| `downtime_jail_duration` | `600000000000` | |
-| `downtime_jail_duration` |  `600000000000` | |
-| `max_evidence_age` |  `120000000000` | |
+| `downtime_jail_duration` | `600000000000` | 10 minutes |
+| `max_evidence_age` |  `120000000000` | 20 minutes |
 | `min_signed_per_window` |  `0.050000000000000000` | |
-| `signed_blocks_window` |  `720` | Approximately 1 hour with 5 seconds block |
-| `slash_fraction_double_sign` |  `0.050000000000000000` | Validator will be jailed for downtime if  missing 684 blocks in 1 hour
-| `slash_fraction_downtime` |  `0.010000000000000000` | |
+| `signed_blocks_window` |  `720` | Validator will be jailed for downtime if  missing 684 blocks, approximately 1 hour with 5 seconds block |
+| `slash_fraction_double_sign` |  `0.050000000000000000` | 5% | 
+| `slash_fraction_downtime` |  `0.010000000000000000` | 1% |
 
 JSON:
 ```json
