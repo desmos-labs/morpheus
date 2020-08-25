@@ -36,7 +36,7 @@ You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-7478342ac03de9afbd7e5d734f604c6360f62a517188cb665d69d50690170e6a  -
+1c7c1cda03ea677b4320015af8e87b7b5c31ad95060cb3ef948c9de135331a81  -
 ```
 
 ### Seed Nodes
@@ -56,7 +56,7 @@ jq -S -c -M '' genesis.json | shasum -a 256
 | Parameter | Value | Description |
 | :-------: | :---: | :---------- |
 | `downtime_jail_duration` | `600000000000` | 10 minutes |
-| `max_evidence_age` |  `120000000000` | 20 minutes |
+| `max_evidence_age` |  `1200000000000` | 20 minutes |
 | `min_signed_per_window` |  `0.050000000000000000` | |
 | `signed_blocks_window` |  `720` | Validator will be jailed for downtime if  missing 684 blocks, approximately 1 hour with 5 seconds block |
 | `slash_fraction_double_sign` |  `0.050000000000000000` | 5% | 
