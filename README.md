@@ -58,7 +58,7 @@ jq -S -c -M '' genesis.json | shasum -a 256
 | `downtime_jail_duration` | `600000000000` | 10 minutes |
 | `max_evidence_age` |  `1200000000000` | 20 minutes |
 | `min_signed_per_window` |  `0.050000000000000000` | |
-| `signed_blocks_window` |  `720` | Validator will be jailed for downtime if  missing 684 blocks, approximately 1 hour with 5 seconds block |
+| `signed_blocks_window` |  `720` | Validator will be jailed for downtime if  missing 720 blocks, approximately 1 hour with 5 seconds block |
 | `slash_fraction_double_sign` |  `0.050000000000000000` | 5% | 
 | `slash_fraction_downtime` |  `0.010000000000000000` | 1% |
 
