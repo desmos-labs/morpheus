@@ -7,8 +7,8 @@
 | Data | Value | 
 | :--- | :---: |
 | Genesis file |  [genesis file](genesis.json) |
-| Chain ID | `morpheus-10000` |
-| Genesis time | `2020-10-06T06:00:00Z` |
+| Chain ID | `morpheus-8000` |
+| Genesis time | `2020-08-25T05:30:00Z` |
 
 ### Desmos Version
 ```sh
@@ -16,32 +16,27 @@ $ desmosd version --long
 name: Desmos
 server_name: desmosd
 client_name: desmoscli
-version: 0.12.2
-commit: 53442e1c9a6065a7b1fc8eacbb03011fbbe48128
+version: 0.10.0
+commit: fd8060a0651aec7e0059d63eecf58dc2a2a4a6e0
 build_tags: netgo ledger
-go: go version go1.15.2 linux/amd64
+go: go version go1.14.7 linux/amd64
 ```
 
 To checkout this version run: 
 
 ```
-git checkout tags/v0.12.2
+git checkout tags/v0.10.0
 ```
 
 ### Genesis state
-The genesis state was exported from `morpheus-8000` at height [`513,570`](https://morpheus-8000.desmos.network/blocks/513570).
+The genesis state was exported from `morpheus-7001` at height [`733,000`](https://morpheus-7001.desmos.network/blocks/733000).
 
 ### Genesis file hash
-You can verify the validity of the genesis file by running:
+You can verify with the sorted genesis file.
 
 ```sh
 jq -S -c -M '' genesis.json | shasum -a 256
-```
-
-It should return: 
-
-```
-bc38f21a896688f06e82b315032a6197bfa07a586d60256e64851c2470a1b5e4  -
+1c7c1cda03ea677b4320015af8e87b7b5c31ad95060cb3ef948c9de135331a81  -
 ```
 
 ### Seed Nodes
