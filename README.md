@@ -8,7 +8,7 @@
 | :--- | :---: |
 | Genesis file |  [genesis file](genesis.json) |
 | Chain ID | `morpheus-10000` |
-| Genesis time | `2020-10-05T06:00:00Z` |
+| Genesis time | `2020-10-06T06:00:00Z` |
 
 ### Desmos Version
 ```sh
