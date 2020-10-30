@@ -47,7 +47,7 @@ It should return:
 ### Seed Nodes
 ```sh
 cd4612957461881d5f62367c589aaa0fdf933bd8@seed-1.morpheus.desmos.network:26656
-fc4714d15629e3b016847c45d5648230a30a50f1@seed-1.morpheus.desmos.network:26656
+fc4714d15629e3b016847c45d5648230a30a50f1@seed-2.morpheus.desmos.network:26656
 ```
 
 ### Persistent Peers
