@@ -38,7 +38,7 @@ You can verify the validity of the genesis file by running:
 jq -S -c -M '' genesis.json | shasum -a 256
 ```
 
-It should return: 
+It should return:
 
 ```
 40541a1a1d3479f55b2c1ef0b217dcbb801fe5d044789688b56270f7369eee6e  -
@@ -48,6 +48,8 @@ It should return:
 ```sh
 cd4612957461881d5f62367c589aaa0fdf933bd8@seed-1.morpheus.desmos.network:26656
 fc4714d15629e3b016847c45d5648230a30a50f1@seed-2.morpheus.desmos.network:26656
+edf8602b37af0831ea37fc522f89f57c583c0e4f@seed-3.morpheus.desmos.network:26656
+fda7a014490a89c06a4babf0976385891625b8cf@seed-4.morpheus.desmos.network:26656
 ```
 
 ### Persistent Peers
@@ -68,7 +70,7 @@ feb7bb0a271f18092d1058cea4a1ee001875e0fc@176.58.125.142:26656 //Witval
 | `max_evidence_age` |  `1200000000000` | 20 minutes |
 | `min_signed_per_window` |  `0.050000000000000000` | |
 | `signed_blocks_window` |  `720` | Validator will be jailed for downtime if  missing 720 blocks, approximately 1 hour with 5 seconds block |
-| `slash_fraction_double_sign` |  `0.050000000000000000` | 5% | 
+| `slash_fraction_double_sign` |  `0.050000000000000000` | 5% |
 | `slash_fraction_downtime` |  `0.010000000000000000` | 1% |
 
 JSON:
