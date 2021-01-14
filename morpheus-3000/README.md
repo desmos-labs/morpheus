@@ -1,25 +1,16 @@
-# Morpheus Testnets
+# Morpheus-3000
 
-This is the repositary for all the Morpheus testnets of Desmos.
-
-## Latest Testnet
-
-The latest [genesis file](3000/genesis.json).
-
-### Chain ID
-
+## Chain ID
 ```sh
 morpheus-3000
 ```
 
-### Genesis Time
-
+## Genesis Time
 ```sh
 2020-03-01T00:00:00Z
 ```
 
-### Desmos Version
-
+## Desmos Version
 ```sh
 v0.3.0
 ```
@@ -35,8 +26,7 @@ build_tags: netgo ledger
 go: go version go1.13.5 darwin/amd64
 ```
 
-### Genesis file hash
-
+## Genesis file hash
 You can verify with the sorted genesis file.
 
 ```sh
@@ -44,23 +34,20 @@ jq -S -c -M '' genesis.json | shasum -a 256
 24494bd9d0800332c4ffdee43b9ef5702cd52bc52c907726197a55990ce5600c  -
 ```
 
-### Seed node
-
+## Seed node
 ```sh
 8307c16191e249d6d3871ce764262d40d9cf249f@34.74.131.47:26656
 ```
 
-### Persistent Peers
-
+## Persistent Peers
 ```sh
 89f913e84b58da594eb449fca7b0fcb540e52d05@35.240.254.97:26656
 5ebcf26295e966c4d705ce5f42e78203c94ad98d@34.76.79.154:26656
 ```
 
-### Parameters
+## Parameters
 
-#### Slashing
-
+### Slashing
 ```json
 {
   "downtime_jail_duration": "600000000000",
@@ -72,11 +59,9 @@ jq -S -c -M '' genesis.json | shasum -a 256
 }
 ```
 
-### Tokens
-
+## Tokens
 __Staking__ : `udaric` \
 __Fee__ : `upotin`
 
-### Faucet
-
+## Faucet
 https://faucet.desmos.networks

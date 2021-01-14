@@ -1,16 +1,13 @@
-# Morpheus testnets
-> Official repository containing all the [Desmos](https://github.com/desmos-labs/desmos) testnets' data.
+# Morpheus-10000
 
-## Latest running testnet
-
-### Chain data
+## Chain data
 | Data | Value | 
 | :--- | :---: |
 | Genesis file |  [genesis file](genesis.json) |
 | Chain ID | `morpheus-10000` |
 | Genesis time | `2020-10-06T06:00:00Z` |
 
-### Desmos Version
+## Desmos Version
 ```sh
 $ desmosd version --long
 name: Desmos
@@ -28,10 +25,10 @@ To checkout this version run:
 git checkout tags/v0.12.2
 ```
 
-### Genesis state
+## Genesis state
 The genesis state was exported from `morpheus-8000` at height [`513,570`](https://morpheus-8000.desmos.network/blocks/513570).
 
-### Genesis file hash
+## Genesis file hash
 You can verify the validity of the genesis file by running:
 
 ```sh
@@ -44,7 +41,7 @@ It should return:
 40541a1a1d3479f55b2c1ef0b217dcbb801fe5d044789688b56270f7369eee6e  -
 ```
 
-### Seed Nodes
+## Seed Nodes
 ```sh
 cd4612957461881d5f62367c589aaa0fdf933bd8@seed-1.morpheus.desmos.network:26656
 fc4714d15629e3b016847c45d5648230a30a50f1@seed-2.morpheus.desmos.network:26656
@@ -52,7 +49,7 @@ edf8602b37af0831ea37fc522f89f57c583c0e4f@seed-3.morpheus.desmos.network:26656
 fda7a014490a89c06a4babf0976385891625b8cf@seed-4.morpheus.desmos.network:26656
 ```
 
-### Persistent Peers
+## Persistent Peers
 ```sh
 7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656
 5077b7964d71d8758f7fc01cac01d0e2d55b8c18@18.196.238.210:26656
@@ -62,9 +59,9 @@ feb7bb0a271f18092d1058cea4a1ee001875e0fc@176.58.125.142:26656
 e4bfed146e475dda7dc48a5bf166770d156fb935@172.105.244.118:26656
 ```
 
-### Parameters
+## Parameters
 
-#### Slashing
+### Slashing
 | Parameter | Value | Description |
 | :-------: | :---: | :---------- |
 | `downtime_jail_duration` | `600000000000` | 10 minutes |
@@ -86,9 +83,9 @@ JSON:
 }
 ```
 
-### Tokens
+## Tokens
 __Staking__ : `udaric` \
 __Fee__ : `upotin`
 
-### Faucet
+## Faucet
 https://faucet.desmos.network

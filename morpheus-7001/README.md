@@ -1,16 +1,13 @@
-# Morpheus testnets
-> Official repository containing all the [Desmos](https://github.com/desmos-labs/desmos) testnets' data.
+# Morpheus-7001
 
-## Latest running testnet
-
-### Chain data
+## Chain data
 | Data | Value | 
 | :--- | :---: |
 | Genesis file |  [genesis file](genesis.json) |
 | Chain ID | `morpheus-7001` |
 | Genesis time | `2020-07-09T10:00:00Z` |
 
-### Desmos Version
+## Desmos Version
 ```sh
 $ desmosd version --long
 name: Desmos
@@ -28,10 +25,10 @@ To checkout this version run:
 git checkout tags/v0.8.2
 ```
 
-### Genesis state
+## Genesis state
 The genesis state was exported from `morpheus-4001` at height [`760000`](https://morpheus-4001.desmos.network/blocks/760000).
 
-### Genesis file hash
+## Genesis file hash
 You can verify with the sorted genesis file.
 
 ```sh
@@ -39,14 +36,14 @@ jq -S -c -M '' genesis.json | shasum -a 256
 d58db84eb3978e1c290a0fbd4a0606e5d7249fa9543e0643313b86c694cd02f6  -
 ```
 
-### Persistent Peers
+## Persistent Peers
 ```sh
 7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656
 ```
 
-### Parameters
+## Parameters
 
-#### Slashing
+### Slashing
 | Parameter | Value | Description |
 | :-------: | :---: | :---------- |
 | `downtime_jail_duration` | `600000000000` | |
@@ -68,9 +65,9 @@ JSON:
 }
 ```
 
-### Tokens
+## Tokens
 __Staking__ : `udaric` \
 __Fee__ : `upotin`
 
-### Faucet
+## Faucet
 https://faucet.desmos.network
