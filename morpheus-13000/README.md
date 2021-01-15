@@ -9,11 +9,11 @@
 
 ## Desmos Version
 ```sh
-$ desmosd version --long
+$ desmos version --long
 name: Desmos
 server_name: desmos
-version: dea597f3
-commit: dea597f397e3e06dc9d31180b049e788e74b5c29
+version: 5b1ceca6
+commit: 5b1ceca6600b32ad01402dca15bde038ff6d09f1
 build_tags: netgo ledger,
 go: go version go1.15.6 linux/amd64
 ```
