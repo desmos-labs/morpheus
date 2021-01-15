@@ -42,10 +42,11 @@ dab31b5a4018f075f5dfbc8e3c9d915b0b3cd87acd0424761284ee56f20c1313  -
 
 ## Seed Nodes
 ```sh
-cd4612957461881d5f62367c589aaa0fdf933bd8@seed-1.morpheus.desmos.network:26656
+e4dfaa271c71f99c6d59bdd179e72373683dab99@seed-1.morpheus.desmos.network:26656
 fc4714d15629e3b016847c45d5648230a30a50f1@seed-2.morpheus.desmos.network:26656
 edf8602b37af0831ea37fc522f89f57c583c0e4f@seed-3.morpheus.desmos.network:26656
 fda7a014490a89c06a4babf0976385891625b8cf@seed-4.morpheus.desmos.network:26656
+d40bcb9c71af25c5208dad470e05656490fc2cd3@seed-5.morpheus.desmos.network:26656
 ```
 
 ## Persistent Peers
