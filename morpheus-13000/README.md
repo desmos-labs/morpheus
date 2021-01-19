@@ -12,8 +12,8 @@
 $ desmos version --long
 name: Desmos
 server_name: desmos
-version: 5b1ceca6
-commit: 5b1ceca6600b32ad01402dca15bde038ff6d09f1
+version: 1cd2bc6f
+commit: 1cd2bc6f96973f8c74522f506a16c780681fc2c2
 build_tags: netgo ledger,
 go: go version go1.15.6 linux/amd64
 ```
@@ -37,26 +37,16 @@ jq -S -c -M '' genesis.json | shasum -a 256
 It should return:
 
 ```
-dab31b5a4018f075f5dfbc8e3c9d915b0b3cd87acd0424761284ee56f20c1313  -
+01612effee9aa8f6c93ef74a09ca80f2cf9a301c2efd114e2976b23e1d48bbf4  -
 ```
 
 ## Seed Nodes
 ```sh
-e4dfaa271c71f99c6d59bdd179e72373683dab99@seed-1.morpheus.desmos.network:26656
-fc4714d15629e3b016847c45d5648230a30a50f1@seed-2.morpheus.desmos.network:26656
-edf8602b37af0831ea37fc522f89f57c583c0e4f@seed-3.morpheus.desmos.network:26656
-fda7a014490a89c06a4babf0976385891625b8cf@seed-4.morpheus.desmos.network:26656
-d40bcb9c71af25c5208dad470e05656490fc2cd3@seed-5.morpheus.desmos.network:26656
 ```
 
 ## Persistent Peers
 ```sh
-7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656
-5077b7964d71d8758f7fc01cac01d0e2d55b8c18@18.196.238.210:26656
-bdd98ec74fe56146f08e886239e52373f6821ce3@51.15.113.208:26656
-e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656
-feb7bb0a271f18092d1058cea4a1ee001875e0fc@176.58.125.142:26656 //Witval
-e4bfed146e475dda7dc48a5bf166770d156fb935@172.105.244.118:26656
+67dcef828fc2be3c3bcc19c9542d2b228bd7cff9@seed-4.morpheus.desmos.network:26656
 ```
 
 ## Parameters

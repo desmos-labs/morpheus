@@ -2,21 +2,11 @@
 version = "v0.15.0"
 
 [genesis]
-checksum = "dab31b5a4018f075f5dfbc8e3c9d915b0b3cd87acd0424761284ee56f20c1313"
+checksum = "01612effee9aa8f6c93ef74a09ca80f2cf9a301c2efd114e2976b23e1d48bbf4"
 
 [network]
-seeds = [
-    "cd4612957461881d5f62367c589aaa0fdf933bd8@seed-1.morpheus.desmos.network:26656",
-    "fc4714d15629e3b016847c45d5648230a30a50f1@seed-2.morpheus.desmos.network:26656",
-    "edf8602b37af0831ea37fc522f89f57c583c0e4f@seed-3.morpheus.desmos.network:26656",
-    "fda7a014490a89c06a4babf0976385891625b8cf@seed-4.morpheus.desmos.network:26656",
-]
+seeds = []
 
 persistent_peers = [
-    "7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656",
-    "5077b7964d71d8758f7fc01cac01d0e2d55b8c18@18.196.238.210:26656",
-    "bdd98ec74fe56146f08e886239e52373f6821ce3@51.15.113.208:26656",
-    "e30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656",
-    "feb7bb0a271f18092d1058cea4a1ee001875e0fc@176.58.125.142:26656",
-    "e4bfed146e475dda7dc48a5bf166770d156fb935@172.105.244.118:26656",
+    "67dcef828fc2be3c3bcc19c9542d2b228bd7cff9@seed-4.morpheus.desmos.network:26656"
 ]
