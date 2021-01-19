@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="179f3ebc-b5ff-4cf1-a9d5-2406e3fc41d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/morpheus-13000/genesis.json" beforeDir="false" afterPath="$PROJECT_DIR$/morpheus-13000/genesis.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="morpheus-10000" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1c51ZO2312PxS2WYiEzJv9LiXcM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/morpheus-13000" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/morpheus-13000" />
+      <recent name="$PROJECT_DIR$/morpheus-10000" />
+      <recent name="$PROJECT_DIR$/8000" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/7000" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/morpheus-10000" />
+      <recent name="$PROJECT_DIR$/7001" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="179f3ebc-b5ff-4cf1-a9d5-2406e3fc41d7" name="Default Changelist" comment="" />
+      <created>1589803694479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589803694479</updated>
+      <workItem from="1589803696732" duration="1117000" />
+      <workItem from="1589955883444" duration="1782000" />
+      <workItem from="1589960242679" duration="262000" />
+      <workItem from="1590124061730" duration="7000" />
+      <workItem from="1591602340401" duration="1828000" />
+      <workItem from="1591610038057" duration="2662000" />
+      <workItem from="1591621093697" duration="2358000" />
+      <workItem from="1591624442060" duration="436000" />
+      <workItem from="1591624890790" duration="760000" />
+      <workItem from="1594107195594" duration="179000" />
+      <workItem from="1594203346321" duration="6110000" />
+      <workItem from="1594267101800" duration="2022000" />
+      <workItem from="1594270353429" duration="325000" />
+      <workItem from="1594287639625" duration="593000" />
+      <workItem from="1594289936776" duration="110000" />
+      <workItem from="1598272922069" duration="1350000" />
+      <workItem from="1598332019162" duration="2658000" />
+      <workItem from="1598853515481" duration="608000" />
+      <workItem from="1601629030958" duration="2027000" />
+      <workItem from="1601875171578" duration="2191000" />
+      <workItem from="1601894015899" duration="745000" />
+      <workItem from="1601914547806" duration="381000" />
+      <workItem from="1601915040412" duration="35000" />
+      <workItem from="1601964535488" duration="161000" />
+      <workItem from="1609145256649" duration="4290000" />
+      <workItem from="1609222347291" duration="30000" />
+      <workItem from="1610610307974" duration="636000" />
+      <workItem from="1610618562101" duration="9391000" />
+      <workItem from="1610633927972" duration="823000" />
+      <workItem from="1610693341768" duration="1047000" />
+      <workItem from="1610717160787" duration="874000" />
+      <workItem from="1610735035964" duration="100000" />
+      <workItem from="1611040851178" duration="793000" />
+    </task>
+    <task id="LOCAL-00001" summary="morpheus-4001">
+      <created>1589804213566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589804213566</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated morpheus-4001 info">
+      <created>1589959074805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589959074805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated genesis.json and README.md for morpheus-4001">
+      <created>1589960520421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589960520421</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added morpheus-5000 details">
+      <created>1591603520783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591603520783</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed morpheus-5000 and added morpheus-4001 rollback procedure">
+      <created>1591621830278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591621830278</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removed morpheus-5000 and added morpheus-4001 rollback procedure">
+      <created>1591621850398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591621850398</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Removed morpheus-5000 and added morpheus-4001 rollback procedure">
+      <created>1591624541372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591624541372</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Removed morpheus-5000 and added morpheus-4001 rollback procedure">
+      <created>1591625010022</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591625010022</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated morpheus-4001 information">
+      <created>1594107360879</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594107360879</updated>
+    </task>
+    <task id="LOCAL-00010" summary="moprheus-7000 testnet">
+      <created>1594235121517</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594235121517</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added the proper Desmos version information">
+      <created>1594267989448</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594267989448</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated tag hash">
+      <created>1594270714989</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594270714989</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changed the last chain id to morpheus-7001">
+      <created>1594287926011</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594287926011</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated Desmos version for morpheus-7001">
+      <created>1594289964333</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594289964333</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Morpheus-8000 (closes #6)">
+      <created>1598273916519</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598273916519</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixed max_evidence_age value">
+      <created>1598332188926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598332188926</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed README">
+      <created>1598332338612</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598332338612</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added morpheus-10000 data and moved the previous ones into morpheus-8000 folder">
+      <created>1601629536745</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601629536745</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changed genesis time">
+      <created>1601877601570</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601877601571</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixed version output">
+      <created>1601894156531</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601894156531</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixed genesis hash">
+      <created>1601914625869</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601914625869</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Renamed all folders to have the morpheus- prefix, and added data.toml for morpheus-10000">
+      <created>1609145560469</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609145560469</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Improved the README files structure">
+      <created>1610634158673</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610634158673</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added morpheus-13000 and improved README">
+      <created>1610693779435</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610693779435</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated morpheus-13000 info">
+      <created>1610719246532</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610719246532</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Morpheus-4001" />
+    <MESSAGE value="morpheus-4001" />
+    <MESSAGE value="Updated morpheus-4001 info" />
+    <MESSAGE value="Updated genesis.json and README.md for morpheus-4001" />
+    <MESSAGE value="Added morpheus-5000 details" />
+    <MESSAGE value="Removed morpheus-5000 and added morpheus-4001 rollback procedure" />
+    <MESSAGE value="Updated moprheus-4001 information" />
+    <MESSAGE value="Updated morpheus-4001 information" />
+    <MESSAGE value="moprheus-7000 testnet" />
+    <MESSAGE value="Added the proper Desmos version information" />
+    <MESSAGE value="Updated tag hash" />
+    <MESSAGE value="Changed the last chain id to morpheus-7001" />
+    <MESSAGE value="Updated Desmos version for morpheus-7001" />
+    <MESSAGE value="Morpheus-8000" />
+    <MESSAGE value="Morpheus-8000 (closes #6)" />
+    <MESSAGE value="Fixed max_evidence_age value" />
+    <MESSAGE value="Fixed README" />
+    <MESSAGE value="Added morpheus-10000 data and moved the previous ones into morpheus-8000 folder" />
+    <MESSAGE value="Changed genesis time" />
+    <MESSAGE value="Fixed version output" />
+    <MESSAGE value="Fixed genesis hash" />
+    <MESSAGE value="Renamed all folders to have the morpheus- prefix, and added data.toml for morpheus-10000" />
+    <MESSAGE value="Improved the README files structure" />
+    <MESSAGE value="Added morpheus-13000 and improved README" />
+    <MESSAGE value="Updated morpheus-13000 info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated morpheus-13000 info" />
+  </component>
+</project>

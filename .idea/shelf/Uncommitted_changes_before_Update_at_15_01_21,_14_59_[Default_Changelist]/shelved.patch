@@ -1,0 +1,19 @@
+Index: morpheus-13000/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Morpheus-13000\n\n## Chain data\n| Data | Value | \n| :--- | :---: |\n| Genesis file |  [genesis file](genesis.json) |\n| Chain ID | `morpheus-13000` |\n| Genesis time | `2021-01-19T07:00:00Z` |\n\n## Desmos Version\n```sh\n$ desmosd version --long\nname: Desmos\nserver_name: desmos\nversion: dea597f3\ncommit: dea597f397e3e06dc9d31180b049e788e74b5c29\nbuild_tags: netgo ledger,\ngo: go version go1.15.6 linux/amd64\n```\n\nTo checkout this version run: \n\n```\ngit checkout tags/v0.15.0\n```\n\n## Genesis state\nThe genesis state was exported from `morpheus-10000` at height [`1,427,500`](https://morpheus-10000.desmos.network/blocks/1427500).\n\n## Genesis file hash\nYou can verify the validity of the genesis file by running:\n\n```sh\njq -S -c -M '' genesis.json | shasum -a 256\n```\n\nIt should return:\n\n```\ndab31b5a4018f075f5dfbc8e3c9d915b0b3cd87acd0424761284ee56f20c1313  -\n```\n\n## Seed Nodes\n```sh\ncd4612957461881d5f62367c589aaa0fdf933bd8@seed-1.morpheus.desmos.network:26656\nfc4714d15629e3b016847c45d5648230a30a50f1@seed-2.morpheus.desmos.network:26656\nedf8602b37af0831ea37fc522f89f57c583c0e4f@seed-3.morpheus.desmos.network:26656\nfda7a014490a89c06a4babf0976385891625b8cf@seed-4.morpheus.desmos.network:26656\n```\n\n## Persistent Peers\n```sh\n7fed5624ca577eb0333d3631b5e4f16ba1736979@54.180.98.75:26656\n5077b7964d71d8758f7fc01cac01d0e2d55b8c18@18.196.238.210:26656\nbdd98ec74fe56146f08e886239e52373f6821ce3@51.15.113.208:26656\ne30d9bb713d17d1e4380b2e2a6df4b5c76c73eb1@34.212.106.82:26656\nfeb7bb0a271f18092d1058cea4a1ee001875e0fc@176.58.125.142:26656 //Witval\ne4bfed146e475dda7dc48a5bf166770d156fb935@172.105.244.118:26656\n```\n\n## Parameters\n\n### Slashing\n| Parameter | Value | Description |\n| :-------: | :---: | :---------- |\n| `downtime_jail_duration` | `600000000000` | 10 minutes |\n| `max_evidence_age` |  `1200000000000` | 20 minutes |\n| `min_signed_per_window` |  `0.050000000000000000` | |\n| `signed_blocks_window` |  `720` | Validator will be jailed for downtime if  missing 720 blocks, approximately 1 hour with 5 seconds block |\n| `slash_fraction_double_sign` |  `0.050000000000000000` | 5% |\n| `slash_fraction_downtime` |  `0.010000000000000000` | 1% |\n\nJSON:\n```json\n{\n  \"downtime_jail_duration\": \"600000000000\",\n  \"max_evidence_age\": \"120000000000\",\n  \"min_signed_per_window\": \"0.050000000000000000\",\n  \"signed_blocks_window\": \"720\",\n  \"slash_fraction_double_sign\": \"0.050000000000000000\",\n  \"slash_fraction_downtime\": \"0.010000000000000000\"\n}\n```\n\n## Tokens\n__Staking__ : `udaric` \\\n__Fee__ : `upotin`\n\n## Faucet\nhttps://faucet.desmos.network\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/morpheus-13000/README.md b/morpheus-13000/README.md
+--- a/morpheus-13000/README.md	(revision 70e6d224be41069747cc47fe8514c059df1e4449)
++++ b/morpheus-13000/README.md	(date 1610719116212)
+@@ -9,7 +9,7 @@
+ 
+ ## Desmos Version
+ ```sh
+-$ desmosd version --long
++$ desmos version --long
+ name: Desmos
+ server_name: desmos
+ version: dea597f3
