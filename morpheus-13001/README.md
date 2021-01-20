@@ -12,8 +12,8 @@
 $ desmos version --long
 name: Desmos
 server_name: desmos
-version: 1cd2bc6f
-commit: 1cd2bc6f96973f8c74522f506a16c780681fc2c2
+version: 71da1ea3
+commit: 71da1ea3e0292d27047b628afefcff783694e4d8
 build_tags: netgo ledger,
 go: go version go1.15.6 linux/amd64
 ```
