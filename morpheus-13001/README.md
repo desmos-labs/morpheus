@@ -46,7 +46,7 @@ e890563bdd5338743759cc028b118b5ee1825241a3157468f5772993bca19d87  -
 
 ## Persistent Peers
 ```sh
-67dcef828fc2be3c3bcc19c9542d2b228bd7cff9@seed-4.morpheus.desmos.network:26656
+1d9cc23eedb2d812d30d99ed12d5c5f21ff40c23@seed-3.morpheus.desmos.network:26656
 ```
 
 ## Parameters
