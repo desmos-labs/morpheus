@@ -42,11 +42,15 @@ e890563bdd5338743759cc028b118b5ee1825241a3157468f5772993bca19d87  -
 
 ## Seed Nodes
 ```sh
+be3db0fe5ee7f764902dbcc75126a2e082cbf00c@seed-1.morpheus.desmos.network:26656
+4659ab47eef540e99c3ee4009ecbe3fbf4e3eaff@seed-2.morpheus.desmos.network:26656
+1d9cc23eedb2d812d30d99ed12d5c5f21ff40c23@seed-3.morpheus.desmos.network:26656
 ```
 
-## Persistent Peers
+## State sync nodes
 ```sh
-1d9cc23eedb2d812d30d99ed12d5c5f21ff40c23@seed-3.morpheus.desmos.network:26656
+67dcef828fc2be3c3bcc19c9542d2b228bd7cff9@seed-4.morpheus.desmos.network:26656
+fcf8207fb84a7238089bd0cd8db994e0af9016b6@seed-5.morpheus.desmos.network:26656
 ```
 
 ## Parameters
