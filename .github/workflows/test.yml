@@ -7,8 +7,8 @@ on:
     branches:
       - master
 jobs:
-  test-morpheus-apollo-1:
-    name: Test morpheus-apollo-1
+  morpheus-apollo-1:
+    name: morpheus-apollo-1
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,9 +20,9 @@ jobs:
           go-version: 1.16
 
       - name: Setup scripts
-        run: |
-          cd .scripts
-          go mod tidy
+        working-directory: .scripts
+        run: go mod tidy
 
       - name: Validate genesis transactions
+        working-directory: .scripts
         run: go run .scripts/verify-gentx.go "$GITHUB_WORKSPACE/morpheus-apollo-1"
