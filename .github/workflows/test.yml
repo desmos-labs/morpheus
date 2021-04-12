@@ -25,4 +25,4 @@ jobs:
 
       - name: Validate genesis transactions
         working-directory: .scripts
-        run: go run .scripts/verify-gentx.go "$GITHUB_WORKSPACE/morpheus-apollo-1"
+        run: go run verify-gentx.go "$GITHUB_WORKSPACE/morpheus-apollo-1"
