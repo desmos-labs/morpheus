@@ -58,6 +58,8 @@ func main() {
 
 // getGenesis returns the genesis doc reading it from the "genesis.json" file located inside the provided dir.
 func getGenesis(dir string) (*tmtypes.GenesisDoc, error) {
+	fmt.Println("Reading genesis.json")
+
 	bz, err := os.ReadFile(path.Join(dir, "genesis.json"))
 	if err != nil {
 		return nil, err
@@ -72,6 +74,8 @@ func getGenesis(dir string) (*tmtypes.GenesisDoc, error) {
 
 // getGenTxsFiles returns the path to all the genesis transactions files located inside the given dir
 func getGenTxsFiles(dir string) ([]string, error) {
+	fmt.Println("Retrieving genesis transactions files")
+
 	var files []string
 	err := filepath.Walk(path.Join(dir, "gentxs"), func(path string, info fs.FileInfo, err error) error {
 		if !info.IsDir() && strings.HasSuffix(info.Name(), ".json") {
@@ -89,6 +93,8 @@ func getGenTxsFiles(dir string) ([]string, error) {
 func validateGenTx(
 	path string, genesis *tmtypes.GenesisDoc, genesisState desmosapp.GenesisState, cdc codec.Marshaler,
 ) error {
+	fmt.Printf("Validating %s\n", path)
+
 	bz, err := os.ReadFile(path)
 	if err != nil {
 		return err
