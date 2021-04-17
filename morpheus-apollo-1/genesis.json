@@ -30,15 +30,38 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1n9660v5lq36cz6x0cgp26hd3g5f8f8pmkvdq2m",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
     },
     "bank": {
       "params": {
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [],
-      "supply": [],
+      "balances": [
+        {
+          "address": "desmos1n9660v5lq36cz6x0cgp26hd3g5f8f8pmkvdq2m",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "udaric",
+          "amount": "10000000"
+        }
+      ],
       "denom_metadata": []
     },
     "capability": {
@@ -183,4 +206,3 @@
     "upgrade": {},
     "vesting": {}
   }
-}
