@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2021-04-23T13:00:00Z",
-  "chain_id": "morpheus-apollo-1",
+  "genesis_time": "2021-04-19T03:27:13.281164147Z",
+  "chain_id": "test-chain-taLYNe",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -30,15 +30,38 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1r60z5v2vgfea9uun472wtwufa6snjx9pv2cm8s",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
     },
     "bank": {
       "params": {
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [],
-      "supply": [],
+      "balances": [
+        {
+          "address": "desmos1r60z5v2vgfea9uun472wtwufa6snjx9pv2cm8s",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "udaric",
+          "amount": "10000000"
+        }
+      ],
       "denom_metadata": []
     },
     "capability": {
@@ -47,7 +70,7 @@
     },
     "crisis": {
       "constant_fee": {
-        "denom": "udaric",
+        "denom": "stake",
         "amount": "1000"
       }
     },
@@ -84,7 +107,7 @@
       "deposit_params": {
         "min_deposit": [
           {
-            "denom": "udaric",
+            "denom": "stake",
             "amount": "10000000"
           }
         ],
@@ -158,11 +181,11 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "259200s",
+        "unbonding_time": "1814400s",
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "udaric"
+        "bond_denom": "stake"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
