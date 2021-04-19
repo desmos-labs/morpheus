@@ -92,7 +92,7 @@ func getGenesis(dir string) (*tmtypes.GenesisDoc, error) {
 func validateGenesis(genesis *tmtypes.GenesisDoc, cdc codec.JSONMarshaler, txConfig client.TxEncodingConfig) error {
 	var genState map[string]json.RawMessage
 	if err := json.Unmarshal(genesis.AppState, &genState); err != nil {
-		return fmt.Errorf("error unmarshalling genesis doc %s: %s", genesis, err.Error())
+		return fmt.Errorf("error unmarshalling genesis doc: %s", err.Error())
 	}
 	return desmosapp.ModuleBasics.ValidateGenesis(cdc, txConfig, genState)
 }
