@@ -68,7 +68,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos1wgkeswy784ecs9k6hsm2snzrjrthrn5p050d7j",
+          "address": "desmos17d9tmdk7qgzxc0eqc4v74jkx6g87j6huqwgrkg",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
