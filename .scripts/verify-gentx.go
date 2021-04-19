@@ -1,7 +1,9 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 	desmosapp "github.com/desmos-labs/desmos/app"
@@ -38,11 +40,17 @@ func main() {
 	cfg.Seal()
 
 	cdc, _ := desmosapp.MakeCodecs()
+	encodingConfig := desmosapp.MakeTestEncodingConfig()
 
 	// Get genesis
 	genesis, err := getGenesis(dirPath)
 	if err != nil {
 		log.Fatal().Err(err).Msg("Error while reading genesis file")
+	}
+
+	err = validateGenesis(genesis, cdc, encodingConfig.TxConfig)
+	if err != nil {
+		log.Fatal().Err(err).Msgf("Error while validating genesis")
 	}
 
 	var genesisState desmosapp.GenesisState
@@ -78,6 +86,15 @@ func getGenesis(dir string) (*tmtypes.GenesisDoc, error) {
 		return nil, err
 	}
 	return &state, nil
+}
+
+// validateGenesis validates the given genesis and returns any error
+func validateGenesis(genesis *tmtypes.GenesisDoc, cdc codec.JSONMarshaler, txConfig client.TxEncodingConfig) error {
+	var genState map[string]json.RawMessage
+	if err := json.Unmarshal(genesis.AppState, &genState); err != nil {
+		return fmt.Errorf("error unmarshalling genesis doc %s: %s", genesis, err.Error())
+	}
+	return desmosapp.ModuleBasics.ValidateGenesis(cdc, txConfig, genState)
 }
 
 // getGenTxsFiles returns the path to all the genesis transactions files located inside the given dir
