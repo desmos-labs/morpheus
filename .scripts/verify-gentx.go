@@ -6,6 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 	desmosapp "github.com/desmos-labs/desmos/app"
 	"github.com/gogo/protobuf/proto"
+	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"strings"
 
@@ -28,12 +29,17 @@ import (
 func main() {
 	dirPath := os.Args[1]
 
+	// Configure logger
+	log.Logger = log.Output(zerolog.ConsoleWriter{Out: os.Stderr})
+
+	// Configure Cosmos SDK
 	cfg := sdk.GetConfig()
 	desmosapp.SetupConfig(cfg)
 	cfg.Seal()
 
 	cdc, _ := desmosapp.MakeCodecs()
 
+	// Get genesis
 	genesis, err := getGenesis(dirPath)
 	if err != nil {
 		log.Fatal().Err(err).Msg("Error while reading genesis file")
@@ -44,6 +50,7 @@ func main() {
 		panic(err)
 	}
 
+	// Validate genesis transactions
 	genTxs, err := getGenTxsFiles(dirPath)
 	if err != nil {
 		panic(err)
@@ -56,7 +63,7 @@ func main() {
 		}
 	}
 
-	fmt.Println("All genesis transactions validates successfully")
+	log.Info().Msg("All genesis transactions validates successfully")
 }
 
 // getGenesis returns the genesis doc reading it from the "genesis.json" file located inside the provided dir.
@@ -92,7 +99,7 @@ func getGenTxsFiles(dir string) ([]string, error) {
 func validateGenTx(
 	path string, genesis *tmtypes.GenesisDoc, genesisState desmosapp.GenesisState, cdc codec.Marshaler,
 ) error {
-	fmt.Printf("Validating %s\n", path)
+	log.Info().Msgf("Validating %s", path)
 
 	bz, err := os.ReadFile(path)
 	if err != nil {
@@ -159,7 +166,7 @@ Make sure you have not changed anything inside the genesis file (such as the gen
 		}
 	}
 
-	fmt.Printf("%s is valid", path)
+	log.Info().Msgf("%s is valid", path)
 	return nil
 }
 
