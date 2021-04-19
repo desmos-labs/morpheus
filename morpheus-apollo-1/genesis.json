@@ -34,16 +34,6 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos164kcy3s0pqfall3r837n82l24alc6l36ky56ld",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos164kcy3s0pqfall3r837n82l24alc6l36ky56ld",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
