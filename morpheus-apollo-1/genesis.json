@@ -33,6 +33,27 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1wgkeswy784ecs9k6hsm2snzrjrthrn5p050d7j",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1yj39fh6zyyl9h7uxh0hguh95w9w23td4c2fg8c",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1nqtxln8td4vhdlztjldedvpmcudd3x0txhjqvm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos1r7p3c6rnqdw69np77kj5k22zffyauq7l68hq8q",
           "pub_key": null,
           "account_number": "0",
@@ -46,6 +67,33 @@
         "default_send_enabled": true
       },
       "balances": [
+        {
+          "address": "desmos1yj39fh6zyyl9h7uxh0hguh95w9w23td4c2fg8c",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1wgkeswy784ecs9k6hsm2snzrjrthrn5p050d7j",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nqtxln8td4vhdlztjldedvpmcudd3x0txhjqvm",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
         {
           "address": "desmos1r7p3c6rnqdw69np77kj5k22zffyauq7l68hq8q",
           "coins": [
