@@ -191,6 +191,34 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1jrld5g998gqm4yx26l6cvhxz7y5adgxquy94nz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1zm3l7p8n5dxqeadsfxy3rd0j3c2knnx3x6q250",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1c85sccjw3vrux9gnze9d4sfgfw6q4qenp6s9gv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos10zmcwh6x449grcyvtvkk23dvu73kz8rrkupcfr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -406,6 +434,42 @@
               "amount": "10000000"
             }
           ]
+        },
+        {
+          "address": "desmos1jrld5g998gqm4yx26l6cvhxz7y5adgxquy94nz",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1zm3l7p8n5dxqeadsfxy3rd0j3c2knnx3x6q250",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1c85sccjw3vrux9gnze9d4sfgfw6q4qenp6s9gv",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos10zmcwh6x449grcyvtvkk23dvu73kz8rrkupcfr",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
         }
       ],
       "supply": [
@@ -502,6 +566,20 @@
         "recv_sequences": [],
         "ack_sequences": [],
         "next_channel_sequence": "0"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "stake",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
       }
     },
     "params": null,
