@@ -261,20 +261,6 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos10zmcwh6x449grcyvtvkk23dvu73kz8rrkupcfr",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos1ekuglhe5lqnjertq8x7z98nr5c5nekecgxyk3j",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
         }
       ]
     },
@@ -580,24 +566,6 @@
               "amount": "10000000"
             }
           ]
-        },
-        {
-          "address": "desmos10zmcwh6x449grcyvtvkk23dvu73kz8rrkupcfr",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ekuglhe5lqnjertq8x7z98nr5c5nekecgxyk3j",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
         }
       ],
       "supply": [
@@ -694,20 +662,6 @@
         "recv_sequences": [],
         "ack_sequences": [],
         "next_channel_sequence": "0"
-      }
-    },
-    "mint": {
-      "minter": {
-        "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "stake",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
       }
     },
     "params": null,
