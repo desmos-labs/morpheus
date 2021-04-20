@@ -328,7 +328,7 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos1lslgfya9dckc79p7hfllx0xjgq89yn4sv400hn",
-          "pub_key": "null",
+          "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
