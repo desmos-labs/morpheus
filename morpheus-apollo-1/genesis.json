@@ -351,7 +351,6 @@
           "address": "desmos14j9adwpp660pjhpe8y2uzwc9kdllar4ka7ckk4",
           "pub_key": null,
           "account_number": "0",
-          "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
@@ -789,7 +788,7 @@
               "denom": "udaric",
               "amount": "10000000"
             }
-          ]
+          
         }
       ],
       "supply": [
