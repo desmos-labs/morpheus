@@ -295,7 +295,7 @@
           "address": "desmos1gdgn0ewj8tg298ne9x9v08c9ztjwszkf082tn9",
           "pub_key": null,
           "account_number": "0",
-          "sequence": "0
+          "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
