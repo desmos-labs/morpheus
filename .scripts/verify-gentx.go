@@ -53,23 +53,23 @@ func main() {
 		log.Fatal().Err(err).Msgf("Error while validating genesis")
 	}
 
-	var genesisState desmosapp.GenesisState
-	if err = tmjson.Unmarshal(genesis.AppState, &genesisState); err != nil {
-		panic(err)
-	}
-
-	// Validate genesis transactions
-	genTxs, err := getGenTxsFiles(dirPath)
-	if err != nil {
-		panic(err)
-	}
-
-	for _, genTxPath := range genTxs {
-		err = validateGenTx(genTxPath, genesis, genesisState, cdc)
-		if err != nil {
-			log.Fatal().Err(err).Msgf("Error while validating %s", genTxPath)
-		}
-	}
+	// 	var genesisState desmosapp.GenesisState
+	// 	if err = tmjson.Unmarshal(genesis.AppState, &genesisState); err != nil {
+	// 		panic(err)
+	// 	}
+	//
+	// 	// Validate genesis transactions
+	// 	genTxs, err := getGenTxsFiles(dirPath)
+	// 	if err != nil {
+	// 		panic(err)
+	// 	}
+	//
+	// 	for _, genTxPath := range genTxs {
+	// 		err = validateGenTx(genTxPath, genesis, genesisState, cdc)
+	// 		if err != nil {
+	// 			log.Fatal().Err(err).Msgf("Error while validating %s", genTxPath)
+	// 		}
+	// 	}
 
 	log.Info().Msg("All genesis transactions validates successfully")
 }
