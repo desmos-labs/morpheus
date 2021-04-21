@@ -1,11 +1,15 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 	desmosapp "github.com/desmos-labs/desmos/app"
 	"github.com/gogo/protobuf/proto"
+	"github.com/rs/zerolog"
+	"github.com/rs/zerolog/log"
 	"strings"
 
 	tmtypes "github.com/tendermint/tendermint/types"
@@ -27,15 +31,26 @@ import (
 func main() {
 	dirPath := os.Args[1]
 
+	// Configure logger
+	log.Logger = log.Output(zerolog.ConsoleWriter{Out: os.Stderr})
+
+	// Configure Cosmos SDK
 	cfg := sdk.GetConfig()
 	desmosapp.SetupConfig(cfg)
 	cfg.Seal()
 
 	cdc, _ := desmosapp.MakeCodecs()
+	encodingConfig := desmosapp.MakeTestEncodingConfig()
 
+	// Get genesis
 	genesis, err := getGenesis(dirPath)
 	if err != nil {
-		panic(err)
+		log.Fatal().Err(err).Msg("Error while reading genesis file")
+	}
+
+	err = validateGenesis(genesis, cdc, encodingConfig.TxConfig)
+	if err != nil {
+		log.Fatal().Err(err).Msgf("Error while validating genesis")
 	}
 
 	var genesisState desmosapp.GenesisState
@@ -43,19 +58,20 @@ func main() {
 		panic(err)
 	}
 
+	// Validate genesis transactions
 	genTxs, err := getGenTxsFiles(dirPath)
 	if err != nil {
 		panic(err)
 	}
 
-	for _, path := range genTxs {
-		err = validateGenTx(path, genesis, genesisState, cdc)
+	for _, genTxPath := range genTxs {
+		err = validateGenTx(genTxPath, genesis, genesisState, cdc)
 		if err != nil {
-			panic(err)
+			log.Fatal().Err(err).Msgf("Error while validating %s", genTxPath)
 		}
 	}
 
-	fmt.Println("All genesis transactions validates successfully")
+	log.Info().Msg("All genesis transactions validates successfully")
 }
 
 // getGenesis returns the genesis doc reading it from the "genesis.json" file located inside the provided dir.
@@ -70,6 +86,15 @@ func getGenesis(dir string) (*tmtypes.GenesisDoc, error) {
 		return nil, err
 	}
 	return &state, nil
+}
+
+// validateGenesis validates the given genesis and returns any error
+func validateGenesis(genesis *tmtypes.GenesisDoc, cdc codec.JSONMarshaler, txConfig client.TxEncodingConfig) error {
+	var genState map[string]json.RawMessage
+	if err := json.Unmarshal(genesis.AppState, &genState); err != nil {
+		return fmt.Errorf("error unmarshalling genesis doc: %s", err.Error())
+	}
+	return desmosapp.ModuleBasics.ValidateGenesis(cdc, txConfig, genState)
 }
 
 // getGenTxsFiles returns the path to all the genesis transactions files located inside the given dir
@@ -91,7 +116,7 @@ func getGenTxsFiles(dir string) ([]string, error) {
 func validateGenTx(
 	path string, genesis *tmtypes.GenesisDoc, genesisState desmosapp.GenesisState, cdc codec.Marshaler,
 ) error {
-	fmt.Printf("Validating %s\n", path)
+	log.Info().Msgf("Validating %s", path)
 
 	bz, err := os.ReadFile(path)
 	if err != nil {
@@ -109,12 +134,14 @@ func validateGenTx(
 	}
 
 	if len(stdTx.Body.Messages) != 1 {
-		return fmt.Errorf("transaction should have exactly 1 message")
+		return fmt.Errorf(`Invalid genesis transaction.
+The transaction should have exactly 1 message`)
 	}
 
 	msgCreateValidator, ok := stdTx.Body.Messages[0].GetCachedValue().(*stakingtypes.MsgCreateValidator)
 	if !ok {
-		return fmt.Errorf("transaction messages should be of type MsgCreateValidator")
+		return fmt.Errorf(`Invalid genesis transaction. 
+The included message should be of type MsgCreateValidator`)
 	}
 
 	for i, sig := range stdTx.AuthInfo.SignerInfos {
@@ -151,11 +178,12 @@ func validateGenTx(
 
 		valid := pubKey.VerifySignature(sigBz, stdTx.Signatures[i])
 		if !valid {
-			return fmt.Errorf("invalid signature")
+			return fmt.Errorf(`Invalid signature.
+Make sure you have not changed anything inside the genesis file (such as the genesis-time, chain-id or the app state.`)
 		}
 	}
 
-	fmt.Printf("%s is valid", path)
+	log.Info().Msgf("%s is valid", path)
 	return nil
 }
 
@@ -180,5 +208,6 @@ func getGenesisAccount(
 
 	}
 
-	return nil, fmt.Errorf("account %s not found", address)
+	return nil, fmt.Errorf(`Account %s not found.
+Make sure you have run "desmos add-genesis-account" and committed the updated genesis state as well.`, address)
 }
