@@ -33,7 +33,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos1c9d63vfut3wuthj2mfhyszygmaj73pf755wgnt",
+          "address": "desmos187mtxygm9zdpdr7p2qln57elgzkxl4ldf6z6ev",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -47,7 +47,7 @@
       },
       "balances": [
         {
-          "address": "desmos1c9d63vfut3wuthj2mfhyszygmaj73pf755wgnt",
+          "address": "desmos187mtxygm9zdpdr7p2qln57elgzkxl4ldf6z6ev",
           "coins": [
             {
               "denom": "udaric",
