@@ -5,7 +5,7 @@
 | :--- | :---: |
 | Genesis file |  [genesis file](genesis.json) |
 | Chain ID | `morpheus-apollo-1` |
-| Genesis time | `2021-04-27T07:00:00Z` |
+| Genesis time | `2021-04-27T13:00:00Z` |
 
 ## Desmos Version
 ```sh
@@ -34,7 +34,7 @@ jq -S -c -M '' genesis.json | shasum -a 256
 It should return:
 
 ```
-<UPDATE>  -
+088fa56c978f2b99b9e942aa299727caf54e2f7e7e9f5cb6128778c73d96cb4b  -
 ```
 
 ## Seed Nodes
