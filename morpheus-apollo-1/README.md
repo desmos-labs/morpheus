@@ -62,7 +62,7 @@ The **bonded goal** is `80%`.
 
 **Blocks per year** are `5006000` based on the average `6.3s` block time on `morpheus-13001`.
 
-### Slashing
+### `x/slashing`
 The `signed_blocks_window` is set to `7200` and `min_signed_per_window` to `0.05` based on `6.3s` average block time
 on `morpheus-13001`. This translates to: 
 
