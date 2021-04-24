@@ -229,13 +229,6 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos1srk56nvfzpdjua33ms8cx55juxdps0tdl7cn95",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos19yp3sjy7pxk7e80ch8u2p5v35vc7ajt9qj0pm0",
           "pub_key": null,
           "account_number": "0",
@@ -292,6 +285,13 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1srk56nvfzpdjua33ms8cx55juxdps0tdl7cn95",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos1u2uj5sffz55ky252qyfsq9x8965aty3ffhvg4l",
           "pub_key": null,
           "account_number": "0",
@@ -334,6 +334,13 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos164v3gfsetnhr8dthhkw7nljwkj3vdd6d0z9y9t",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos15upqwuee542sxn987gg2n7tf8l5e65ffmxe80c",
           "pub_key": null,
           "account_number": "0",
@@ -355,14 +362,14 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos164v3gfsetnhr8dthhkw7nljwkj3vdd6d0z9y9t",
+          "address": "desmos1n46ae6mdwjj25zt5wmhuurpf7z6dwmqa8le9ee",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos1nqtxln8td4vhdlztjldedvpmcudd3x0txhjqvm",
+          "address": "desmos1c0cglys5h6ry8s266u9a0kw4jpan5eyx8lhsna",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -377,13 +384,6 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos1gm4khuje9wdyqlz0e4y67jp07cendm9fhqcs7u",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos1n46ae6mdwjj25zt5wmhuurpf7z6dwmqa8le9ee",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -475,13 +475,6 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos1nj3anmeemlgt5ym92f283wzlq3zfr3327x2pfe",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "desmos1c0cglys5h6ry8s266u9a0kw4jpan5eyx8lhsna",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -853,6 +846,13 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "desmos1c85sccjw3vrux9gnze9d4sfgfw6q4qenp6s9gv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1nqtxln8td4vhdlztjldedvpmcudd3x0txhjqvm",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -1052,7 +1052,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1061,7 +1061,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1070,7 +1070,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1079,7 +1079,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1088,7 +1088,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1097,7 +1097,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1106,7 +1106,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1115,7 +1115,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1124,7 +1124,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1133,7 +1133,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1142,7 +1142,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1151,7 +1151,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1160,7 +1160,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1169,7 +1169,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1178,7 +1178,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1187,7 +1187,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1196,7 +1196,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1205,7 +1205,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1214,7 +1214,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1223,7 +1223,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1232,7 +1232,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1241,7 +1241,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1250,7 +1250,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1259,7 +1259,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1268,7 +1268,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1277,7 +1277,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1286,7 +1286,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1295,16 +1295,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1srk56nvfzpdjua33ms8cx55juxdps0tdl7cn95",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1313,7 +1304,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1322,7 +1313,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1331,7 +1322,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1340,7 +1331,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1349,7 +1340,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1358,7 +1349,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1367,7 +1358,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1376,7 +1367,16 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1srk56nvfzpdjua33ms8cx55juxdps0tdl7cn95",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
             }
           ]
         },
@@ -1385,7 +1385,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1394,7 +1394,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1403,7 +1403,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1412,7 +1412,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1421,7 +1421,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1430,34 +1430,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos15upqwuee542sxn987gg2n7tf8l5e65ffmxe80c",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1gdgn0ewj8tg298ne9x9v08c9ztjwszkf082tn9",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1cdnwslsrmeazf0upzs273ws4caa3tvanmta48c",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1466,34 +1439,34 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
         {
-          "address": "desmos1nqtxln8td4vhdlztjldedvpmcudd3x0txhjqvm",
+          "address": "desmos15upqwuee542sxn987gg2n7tf8l5e65ffmxe80c",
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
         {
-          "address": "desmos1rz3szsqw7xlha2zq5tsxhcnkvpj2xu3asjcxuz",
+          "address": "desmos1gdgn0ewj8tg298ne9x9v08c9ztjwszkf082tn9",
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
         {
-          "address": "desmos1gm4khuje9wdyqlz0e4y67jp07cendm9fhqcs7u",
+          "address": "desmos1cdnwslsrmeazf0upzs273ws4caa3tvanmta48c",
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1502,124 +1475,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1r9ygmythpqrl9kyz9npkkvszzva89c7tz56jns",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos14j9adwpp660pjhpe8y2uzwc9kdllar4ka7ckk4",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1gza7qhrggcmprtxqdg5qyetux4wjdt77ms5tqx",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos148rxxluq3xec2wa8j570s9apnj6fnv4vhlm0e7",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos15fpte387ygestt8w3gz7wls0wnsggtvfjzks0z",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos16v6pcp6tjqk9np20jv0zw7wy7ehqy7g3asxt67",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos16c60y8t8vra27zjg2arlcd58dck9cwn7p6fwtd",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1guh44vygaz5drm6q7lq96knl7nvhfcq0u8cfdv",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1aalrfq8uekku9djjuzxdv353hranc9l20ghjzj",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1lxrfucwcaj0dp0ssjqt2qs30e6e2veyzm38uh3",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ys42amj53hka8mx4h2nvz4hxf82v9rwvn6xuxh",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1p35njvw060u2tjw73ncvtgapmlw7ry9fqw2ja2",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1nj3anmeemlgt5ym92f283wzlq3zfr3327x2pfe",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1628,7 +1484,142 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1rz3szsqw7xlha2zq5tsxhcnkvpj2xu3asjcxuz",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1gm4khuje9wdyqlz0e4y67jp07cendm9fhqcs7u",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1r9ygmythpqrl9kyz9npkkvszzva89c7tz56jns",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos14j9adwpp660pjhpe8y2uzwc9kdllar4ka7ckk4",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1gza7qhrggcmprtxqdg5qyetux4wjdt77ms5tqx",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos148rxxluq3xec2wa8j570s9apnj6fnv4vhlm0e7",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos15fpte387ygestt8w3gz7wls0wnsggtvfjzks0z",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos16v6pcp6tjqk9np20jv0zw7wy7ehqy7g3asxt67",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos16c60y8t8vra27zjg2arlcd58dck9cwn7p6fwtd",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1guh44vygaz5drm6q7lq96knl7nvhfcq0u8cfdv",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1aalrfq8uekku9djjuzxdv353hranc9l20ghjzj",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1lxrfucwcaj0dp0ssjqt2qs30e6e2veyzm38uh3",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ys42amj53hka8mx4h2nvz4hxf82v9rwvn6xuxh",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1p35njvw060u2tjw73ncvtgapmlw7ry9fqw2ja2",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nj3anmeemlgt5ym92f283wzlq3zfr3327x2pfe",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
             }
           ]
         },
@@ -1637,7 +1628,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1646,7 +1637,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1655,7 +1646,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1664,7 +1655,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1673,7 +1664,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1682,7 +1673,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1691,7 +1682,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1700,7 +1691,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1709,7 +1700,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1718,7 +1709,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1727,7 +1718,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1736,7 +1727,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1745,7 +1736,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1754,7 +1745,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1763,7 +1754,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1772,7 +1763,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1781,7 +1772,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1790,7 +1781,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1799,7 +1790,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1808,7 +1799,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1817,7 +1808,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1826,7 +1817,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1835,7 +1826,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1844,7 +1835,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1853,7 +1844,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1862,7 +1853,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1871,7 +1862,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1880,7 +1871,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1889,7 +1880,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1898,7 +1889,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1907,7 +1898,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1916,7 +1907,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1925,7 +1916,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1934,7 +1925,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1943,7 +1934,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1952,7 +1943,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1961,7 +1952,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1970,7 +1961,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1979,7 +1970,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1988,7 +1979,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -1997,7 +1988,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2006,7 +1997,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2015,7 +2006,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2024,7 +2015,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2033,7 +2024,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2042,7 +2033,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2051,7 +2042,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2060,7 +2051,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2069,7 +2060,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2078,7 +2069,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2087,7 +2078,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2096,7 +2087,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2105,7 +2096,16 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nqtxln8td4vhdlztjldedvpmcudd3x0txhjqvm",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
             }
           ]
         },
@@ -2114,7 +2114,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2123,7 +2123,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2132,7 +2132,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2141,7 +2141,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2150,7 +2150,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2159,7 +2159,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2168,7 +2168,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2177,7 +2177,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2186,7 +2186,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2195,7 +2195,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2204,7 +2204,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2213,7 +2213,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2222,7 +2222,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2231,7 +2231,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2240,7 +2240,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2249,7 +2249,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2258,7 +2258,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2267,7 +2267,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2276,7 +2276,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2285,7 +2285,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2294,7 +2294,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2303,7 +2303,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2312,7 +2312,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2321,7 +2321,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2330,7 +2330,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         },
@@ -2339,7 +2339,7 @@
           "coins": [
             {
               "denom": "udaric",
-              "amount": "10000"
+              "amount": "10000000"
             }
           ]
         }
