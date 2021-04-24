@@ -10,7 +10,7 @@
     },
     "evidence": {
       "max_age_num_blocks": "100000",
-      "max_age_duration": "259200s",
+      "max_age_duration": "259200000000000",
       "max_bytes": "1048576"
     },
     "validator": {
@@ -146,6 +146,8 @@
     "params": null,
     "profiles": {
       "dtag_transfer_requests": [],
+      "blocks": [],
+      "relationships": [],
       "params": {
         "moniker_params": {
           "min_moniker_length": "2",
