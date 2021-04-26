@@ -1144,6 +1144,13 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos1dzn2s7l0wm9kekyazcnhapu8j95n90efmcmrad",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -2529,9 +2536,23 @@
               "amount": "10000000"
             }
           ]
+        },
+        {
+          "address": "desmos1dzn2s7l0wm9kekyazcnhapu8j95n90efmcmrad",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "99698480000000"
+            }
+          ]
         }
       ],
-      "supply": [],
+      "supply": [
+        {
+          "denom": "udaric",
+          "amount": "100000000000000"
+        }
+      ],
       "denom_metadata": []
     },
     "capability": {
