@@ -2392,6 +2392,15 @@
               "amount": "10000000"
             }
           ]
+        },
+        {
+          "address": "desmos1snmetx9sfrmznr4z6d3lnwlyvwu36sgcpzzhlr",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "300000000000"
+            }
+          ]
         }
       ],
       "supply": [],
