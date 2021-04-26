@@ -11257,7 +11257,7 @@
     "staking": {
       "params": {
         "unbonding_time": "259200s",
-        "max_validators": 100,
+        "max_validators": 150,
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "udaric"
