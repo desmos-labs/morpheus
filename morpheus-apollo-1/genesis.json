@@ -1721,15 +1721,6 @@
           ]
         },
         {
-          "address": "desmos1nj3anmeemlgt5ym92f283wzlq3zfr3327x2pfe",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
           "address": "desmos1txdthvutrrfzzf9htelcnfz655afu4yh30lhfc",
           "coins": [
             {
