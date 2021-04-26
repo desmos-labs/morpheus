@@ -1038,6 +1038,56 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "desmos1snmetx9sfrmznr4z6d3lnwlyvwu36sgcpzzhlr",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "udaric",
+                "amount": "30000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1619766000"
+          },
+          "start_time": "1619506800",
+          "vesting_periods": [
+            {
+              "length": "86400",
+              "amount": [
+                {
+                  "denom": "udaric",
+                  "amount": "10000000000"
+                }
+              ]
+            },
+            {
+              "length": "86400",
+              "amount": [
+                {
+                  "denom": "udaric",
+                  "amount": "10000000000"
+                }
+              ]
+            },
+            {
+              "length": "86400",
+              "amount": [
+                {
+                  "denom": "udaric",
+                  "amount": "10000000000"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
