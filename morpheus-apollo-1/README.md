@@ -34,7 +34,7 @@ jq -S -c -M '' genesis.json | shasum -a 256
 It should return:
 
 ```
-ae0c5a26f709e7fdad4f10dfe04578adff5df3f743290852576bffa688380881  -
+4faa5ca49e83db2d6285d2d3d817258508a4691f233bef8b1223d71c10620c6f  -
 ```
 
 ## Seed Nodes
