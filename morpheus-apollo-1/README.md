@@ -12,14 +12,14 @@
 $ desmos version --long
 name: Desmos
 server_name: desmos
-version: 85d94828
-commit: 85d9482829e31eca88a84a6611709924e97130f3
+version: 64b644bd
+commit: 64b644bdc861988d2f8ef5b4356a1a5773b85c56
 ```
 
 To checkout this version run: 
 
 ```
-git checkout tags/v0.16.0
+git checkout tags/v0.16.1
 ```
 
 ## Genesis state
