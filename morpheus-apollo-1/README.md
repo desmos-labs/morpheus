@@ -73,4 +73,4 @@ on `morpheus-13001`. This translates to:
 `udaric`
 
 ## Faucet
-https://faucet.desmos.network
+The faucet at https://faucet.desmos.network is not configured for this testnet. Instead, use the bot on the #ask-tokens channel on the Desmos Discord server.
