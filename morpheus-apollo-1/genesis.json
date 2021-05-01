@@ -1151,6 +1151,13 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "desmos17ruq8femrt8yqpv5tmdvycl0m9quqcj8wu2y9s",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -1161,682 +1168,7 @@
       },
       "balances": [
         {
-          "address": "desmos1xrps26p5ueaky6vnv33scw0kg8xlyh5rwx4kjt",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ng8fj3ev0jmdyqxyx3pp5klr9xdz3j4w2c03dr",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos18kvwy5hzcu3ss08lcfcnx0eajuecg69ujmkwjr",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ewy6w9ea2dlu22qguk3uluu35pdfvsn2faslg8",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos13cpd55uuptygw0fuwf7dmdc7p9huuvdwvmep0p",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos17s0mzkxetf0jj8wg48ys68ynrlg7u29sf8jncq",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos17yx9jullk7enj8rtsqz6zsaze0wnnxqmhrtj28",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1q7z39cgyshu3mv9n3dl6xdej3r64u3jyza2v4l",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1cgzcj0jwja032zx7hgjuxruqdvppex3nd6dm3e",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
           "address": "desmos1qjxe4r8lcr6rx4u2thx4f3v8gadfq39enmn5qa",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1lrs3a8y9ugs0nze6dua70l29zvx3lxy895pcdp",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1qlh47ty9ah2d5e0xq6gsvqjvfulljl963872rh",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1m8eycm0s57jgcscv2h3kjq4xlqfjmgytt02pt5",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1hdcz99hv65sky355ftsznvwk67jvl4q40pje3y",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1cnnhvfhed6yxllupeqzhdnle4jws357w2kagk3",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1c6x3ngzedvqva67nx6ay7vsuw8u79ck0qftdc9",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1u0dae8r8hay6r2gvccegg2fz6ryftf2wh76qre",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos12mu43g2qvdddfc3tpgr3pekkrdx23jgv36jlta",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1xt393r5ygqsdaaltcsr3uklkqqlauv0kshv0ng",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ugu2hzh6yv7wcxx8y992zjwyj0sdz87hu0sh56",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1nqj3de2rxg385ddfa0jg05ktha4gwkrceu5alp",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1jrld5g998gqm4yx26l6cvhxz7y5adgxquy94nz",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1lzzctd3a839xxk7vf4cwuhcvgcnmxrhrcn93qt",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1s05pp00ecv44zxey656x89jdjh3p8j2u007y37",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1s42cjzk63rjvn5jeh622ej93dzj7de8mewe27a",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1057g70sczen2wltr0vgr624yxn438cs346e9u3",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1j93vdl92qtmrp8fff3jskmlxd4cq5653sh9agy",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1c7sdzjpfur988p636httrduacqc33s3x9ufzjh",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos19yp3sjy7pxk7e80ch8u2p5v35vc7ajt9qj0pm0",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ddvn2zpzntv29sg0r5aha5thk94uckwekjsvu7",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1lslgfya9dckc79p7hfllx0xjgq89yn4sv400hn",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1gq8h7ky2epcledxs9t979a2ne5rvp7g6a3wwxu",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1y6chjqz3qsljmsu59l7u4saa622eqgldfcaeg3",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1jsnkzc6ycsecdd0ch9vdlg2ujvr46tnk0qtu39",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1y5vpedencvqxf3xg8jvw50flnu9e9k482ztz64",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1kzra08n980nazhjn0pd5ssxr7ppskkv5c7342g",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1srk56nvfzpdjua33ms8cx55juxdps0tdl7cn95",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1u2uj5sffz55ky252qyfsq9x8965aty3ffhvg4l",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1a2kwtpvam7gh7rel2m4hdkc2ee5pftf6rf5xwq",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1zm3l7p8n5dxqeadsfxy3rd0j3c2knnx3x6q250",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1xj5ufn7ncydufm66uegp0p4eagq90vpeq4s5ly",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos157vyrmqsgue9t2zrvwjau2lsdf8ywjx0qej6qj",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos137c20vhs2p553lj7v5yzrkztjd5rr7z4pedm9d",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos164v3gfsetnhr8dthhkw7nljwkj3vdd6d0z9y9t",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos15upqwuee542sxn987gg2n7tf8l5e65ffmxe80c",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1gdgn0ewj8tg298ne9x9v08c9ztjwszkf082tn9",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1cdnwslsrmeazf0upzs273ws4caa3tvanmta48c",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1n46ae6mdwjj25zt5wmhuurpf7z6dwmqa8le9ee",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1c0cglys5h6ry8s266u9a0kw4jpan5eyx8lhsna",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1rz3szsqw7xlha2zq5tsxhcnkvpj2xu3asjcxuz",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1gm4khuje9wdyqlz0e4y67jp07cendm9fhqcs7u",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1r9ygmythpqrl9kyz9npkkvszzva89c7tz56jns",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos14j9adwpp660pjhpe8y2uzwc9kdllar4ka7ckk4",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1gza7qhrggcmprtxqdg5qyetux4wjdt77ms5tqx",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos148rxxluq3xec2wa8j570s9apnj6fnv4vhlm0e7",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos15fpte387ygestt8w3gz7wls0wnsggtvfjzks0z",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos16v6pcp6tjqk9np20jv0zw7wy7ehqy7g3asxt67",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos16c60y8t8vra27zjg2arlcd58dck9cwn7p6fwtd",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1guh44vygaz5drm6q7lq96knl7nvhfcq0u8cfdv",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1aalrfq8uekku9djjuzxdv353hranc9l20ghjzj",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1lxrfucwcaj0dp0ssjqt2qs30e6e2veyzm38uh3",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ys42amj53hka8mx4h2nvz4hxf82v9rwvn6xuxh",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1p35njvw060u2tjw73ncvtgapmlw7ry9fqw2ja2",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1txdthvutrrfzzf9htelcnfz655afu4yh30lhfc",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ewt23x27qlm54fax0lygsa8g2xd9xe5vafeqzc",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ymgtfx0f92cpprxugznjml24u0rdc24c6jgdgf",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1nk29frw3492pekfgtk34m3474wzhyl23ct8dmz",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos19tncwrg3zgtw50k8gux9ea8jx5mk57c8dzq8j2",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos16s4shsdadlszdjvawtyu66rwlu0epzxmwngqaw",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos14kcm753vjxpkxwnct8ery4rtyjc3nhkfah8l8c",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1hxpznlpps436xz5s6u3am9fly3detgnwpvm4j2",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1c0t5lzlr7rtqpjeypdzyr29p78230mppccnxhs",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1c9d63vfut3wuthj2mfhyszygmaj73pf755wgnt",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos19ztltyy2d9qmsteg69ftl9hsmzrss3jcphj8th",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1deav6r6gvxtvx85eg994enluq3kaslj04kmedt",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1e50ff5mhz57atjjjmx7jarm37sl6d4ky5kfqtw",
           "coins": [
             {
               "denom": "udaric",
@@ -1854,7 +1186,7 @@
           ]
         },
         {
-          "address": "desmos1ehg3zwfc8axqugqk4e8nrvl5n0kxq8v5hvevvh",
+          "address": "desmos1q7z39cgyshu3mv9n3dl6xdej3r64u3jyza2v4l",
           "coins": [
             {
               "denom": "udaric",
@@ -1863,421 +1195,7 @@
           ]
         },
         {
-          "address": "desmos1yt9mufx6elkl8yjcwa0e9n874myzkflll25xdk",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1fzxavenzv2vf4k33s5lze7zvfza6yxqx73rx2v",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1rr50taqnf43k25dlylejrpvla73xrr6rddazlf",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1xglqs95egh8dgh304wte8c8vf24k36rujw55j9",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1y3jmncdyf25rkexjwp82lv4y7f4n8qcghj0g7s",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos10rgzfkg03n5p5mnu5vfnecwhuswf24ae2td68p",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1njm853h4h9vh8xge3v9mf7nnukzhgt6zyqxyfr",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1v3xpl2ggjwc4kf63z2ztmad2h9ahx2wtf95dwv",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ekuglhe5lqnjertq8x7z98nr5c5nekecgxyk3j",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1gwmhj8sluwxw3ytra230gfsgdy30qsjzxgnyfc",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1palczu5tek2fpfgan33sex4smytr2htfvwnpfa",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1nh6lnehsgmjgf2z685t3rxjy0h9v2284fpcwpa",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1473r2yl6map88zu52fua04dcpkyhpq9cddmvul",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1hd4gwtd0nyjha92p3jjpdwpw0ufm5a87pd9ese",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos10ruy7enmww8x8ukn2kzzw3krgltn7pwjtnhl04",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1eh00ltj63q7pns64x83pqyadvp6pwgzlgt3jx0",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1vsdk2qk5rp2htufgfw8ledfy06mqyta4xcvv2f",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos15zcn4vd57jdnup3r74f986au3xzshf60y0t8q5",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1szmth0042aheqkuydmxjfjm9wugrlv02gy592u",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1h7crcscc2u29m4e7uuvzsfgqkrq6j3jgyqj6w5",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1rgvydsxtjghlcdlxx3v79nfuzjwcc7h9j0lfg7",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1svddear9lcdk27sg4dqglaka4tqaw6qqf5gzf9",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1h5f3dywec65v9qulxkmcv3e6yujyh3zm39lr4r",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos16lms7j8f6nqz55lpj89y5gvmhllupx2le6hup8",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1u7rcahyhsxcaqfggn8ph23sse6gkdhymwg2xlw",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1vncw4vpr8ymngw298we8lmp7f2tnm7t76west6",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos10zmcwh6x449grcyvtvkk23dvu73kz8rrkupcfr",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1chvyq5k36dld6mgv59yuut0m8qw4k8wdt2f864",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos124xa66ghhq5hrgv28slhmszgvcqa0skcfwphh3",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1wgkeswy784ecs9k6hsm2snzrjrthrn5p050d7j",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1xzph9c9a6ywz2370fu35xem2a2y5qwpz4pzcvt",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos17d9tmdk7qgzxc0eqc4v74jkx6g87j6huqwgrkg",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1u533s9gjw5hm3ngv6k7e2ett554kd7vmgtpjfz",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1t6tmgt8j4p4cw7nzzcdwhgwcxe7zc3m57c93fw",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1yj39fh6zyyl9h7uxh0hguh95w9w23td4c2fg8c",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1nm8gdv5dpvq5q5yfr6ypsra7j28s5vq9uczmax",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos120zyjdnd5w6snyx7j5yxz6y6u3fgkkfm6qku0n",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1c85sccjw3vrux9gnze9d4sfgfw6q4qenp6s9gv",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1nqtxln8td4vhdlztjldedvpmcudd3x0txhjqvm",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1hj4cfddkgtc60xvc26hh8h0jptdtj437h0an62",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos164kcy3s0pqfall3r837n82l24alc6l36ky56ld",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1r60z5v2vgfea9uun472wtwufa6snjx9pv2cm8s",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1urucku3eava6ez6vnrd26elqzytn7rmcpz2vg7",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1g2ra4q8aq2n9q4g9dzele3nr5d8uutrprklk69",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1mvzqp9tpguff25ynt8twaqg8l49jkgt3gggxhd",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1w592hau25nszfaakhdc8s9qte73ylnpay7jh23",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1z3mv8l62peu0gs366q4muvfvpnzpj3pga3awn0",
+          "address": "desmos1qlh47ty9ah2d5e0xq6gsvqjvfulljl963872rh",
           "coins": [
             {
               "denom": "udaric",
@@ -2295,52 +1213,7 @@
           ]
         },
         {
-          "address": "desmos19c6nnp6afxj82ehxtlejyvg6zh58050jx9fecg",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1r7p3c6rnqdw69np77kj5k22zffyauq7l68hq8q",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ryvw5xpf6ukykggcn6ha73tcma52ww4k9dfrmy",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1m5svpfpcdfel53k46ax8a2y4rr6j6tj3n8vxwg",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1hrncsvcx47afflsau2zmcd6lgea9m02l3p4k5s",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ernh92vrx95fm3a3cyy4am6xc5y0fvavux6gze",
+          "address": "desmos1p35njvw060u2tjw73ncvtgapmlw7ry9fqw2ja2",
           "coins": [
             {
               "denom": "udaric",
@@ -2358,7 +1231,7 @@
           ]
         },
         {
-          "address": "desmos1e7g9l8kcdky5ajetrsr5huthg02dk2wkyljksz",
+          "address": "desmos1palczu5tek2fpfgan33sex4smytr2htfvwnpfa",
           "coins": [
             {
               "denom": "udaric",
@@ -2367,7 +1240,7 @@
           ]
         },
         {
-          "address": "desmos1aa5atf0mem08fgefhcsu6rc0qd6as2yydh4e4m",
+          "address": "desmos1z3mv8l62peu0gs366q4muvfvpnzpj3pga3awn0",
           "coins": [
             {
               "denom": "udaric",
@@ -2376,7 +1249,7 @@
           ]
         },
         {
-          "address": "desmos1vm8dd23276tsxrye4cdreg52esvuc3rml9devc",
+          "address": "desmos1zm3l7p8n5dxqeadsfxy3rd0j3c2knnx3x6q250",
           "coins": [
             {
               "denom": "udaric",
@@ -2385,7 +1258,7 @@
           ]
         },
         {
-          "address": "desmos1aatv3x3hgh06h72gjyyjtgvva2cm7x3tuvle3n",
+          "address": "desmos1rz3szsqw7xlha2zq5tsxhcnkvpj2xu3asjcxuz",
           "coins": [
             {
               "denom": "udaric",
@@ -2394,7 +1267,7 @@
           ]
         },
         {
-          "address": "desmos1huewk6j8tyjy6xjwkcuk6syecfllkty0a0kns4",
+          "address": "desmos1rr50taqnf43k25dlylejrpvla73xrr6rddazlf",
           "coins": [
             {
               "denom": "udaric",
@@ -2403,7 +1276,7 @@
           ]
         },
         {
-          "address": "desmos16gcntemxx2ghvqg0zkyzm8tpy9up8u6guyda5h",
+          "address": "desmos1ryvw5xpf6ukykggcn6ha73tcma52ww4k9dfrmy",
           "coins": [
             {
               "denom": "udaric",
@@ -2412,7 +1285,7 @@
           ]
         },
         {
-          "address": "desmos1jvqpec94x652s5k6gg22q0ppxpus8yz7qx8v7n",
+          "address": "desmos1r9ygmythpqrl9kyz9npkkvszzva89c7tz56jns",
           "coins": [
             {
               "denom": "udaric",
@@ -2421,88 +1294,7 @@
           ]
         },
         {
-          "address": "desmos1l7j6w8t282p3jnngz6e096y3wnk8j7nz2y052q",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1awrg9y8lv7695as65rjcngl77hzxz5h4w69pap",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ct2uu96e80xq3d6x4ual4d4sxna678p9qxaryt",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1snmetx9sfrmznr4z6d3lnwlyvwu36sgcpzzhlr",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "300000000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos15yny9u9z3j3z0crtwwdp6s9dyjvf03cxlhukfz",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos19f7w7v2a362lwevgcypffj9pm2gaymlae55mvc",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1nmc42azv3uudh7xkhrnnp9ctp9r8t2a87vj4j9",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1n9660v5lq36cz6x0cgp26hd3g5f8f8pmkvdq2m",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1ctan2ty5y9ewrrgsjnpuz8hq0z3h2afr698xez",
-          "coins": [
-            {
-              "denom": "udaric",
-              "amount": "10000000"
-            }
-          ]
-        },
-        {
-          "address": "desmos1h7h6f03exgeq30jhqlwr8et9vrxw4sl83cfvt3",
+          "address": "desmos1rgvydsxtjghlcdlxx3v79nfuzjwcc7h9j0lfg7",
           "coins": [
             {
               "denom": "udaric",
@@ -2520,7 +1312,250 @@
           ]
         },
         {
-          "address": "desmos14q09ww3ue47k7wjc0jynlsq085f7vg5chd2k76",
+          "address": "desmos1r60z5v2vgfea9uun472wtwufa6snjx9pv2cm8s",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1r7p3c6rnqdw69np77kj5k22zffyauq7l68hq8q",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1yt9mufx6elkl8yjcwa0e9n874myzkflll25xdk",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ys42amj53hka8mx4h2nvz4hxf82v9rwvn6xuxh",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1y3jmncdyf25rkexjwp82lv4y7f4n8qcghj0g7s",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1yj39fh6zyyl9h7uxh0hguh95w9w23td4c2fg8c",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1y5vpedencvqxf3xg8jvw50flnu9e9k482ztz64",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1y6chjqz3qsljmsu59l7u4saa622eqgldfcaeg3",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ymgtfx0f92cpprxugznjml24u0rdc24c6jgdgf",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos19ztltyy2d9qmsteg69ftl9hsmzrss3jcphj8th",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos19yp3sjy7pxk7e80ch8u2p5v35vc7ajt9qj0pm0",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos19f7w7v2a362lwevgcypffj9pm2gaymlae55mvc",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos19tncwrg3zgtw50k8gux9ea8jx5mk57c8dzq8j2",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos19c6nnp6afxj82ehxtlejyvg6zh58050jx9fecg",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1xzph9c9a6ywz2370fu35xem2a2y5qwpz4pzcvt",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1xrps26p5ueaky6vnv33scw0kg8xlyh5rwx4kjt",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1xglqs95egh8dgh304wte8c8vf24k36rujw55j9",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1xt393r5ygqsdaaltcsr3uklkqqlauv0kshv0ng",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1xj5ufn7ncydufm66uegp0p4eagq90vpeq4s5ly",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos18kvwy5hzcu3ss08lcfcnx0eajuecg69ujmkwjr",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1gq8h7ky2epcledxs9t979a2ne5rvp7g6a3wwxu",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1gza7qhrggcmprtxqdg5qyetux4wjdt77ms5tqx",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1g2ra4q8aq2n9q4g9dzele3nr5d8uutrprklk69",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1gdgn0ewj8tg298ne9x9v08c9ztjwszkf082tn9",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1gwmhj8sluwxw3ytra230gfsgdy30qsjzxgnyfc",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1gm4khuje9wdyqlz0e4y67jp07cendm9fhqcs7u",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1guh44vygaz5drm6q7lq96knl7nvhfcq0u8cfdv",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1fzxavenzv2vf4k33s5lze7zvfza6yxqx73rx2v",
           "coins": [
             {
               "denom": "udaric",
@@ -2538,6 +1573,87 @@
           ]
         },
         {
+          "address": "desmos120zyjdnd5w6snyx7j5yxz6y6u3fgkkfm6qku0n",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos124xa66ghhq5hrgv28slhmszgvcqa0skcfwphh3",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos12mu43g2qvdddfc3tpgr3pekkrdx23jgv36jlta",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1txdthvutrrfzzf9htelcnfz655afu4yh30lhfc",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1t6tmgt8j4p4cw7nzzcdwhgwcxe7zc3m57c93fw",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1vsdk2qk5rp2htufgfw8ledfy06mqyta4xcvv2f",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1v3xpl2ggjwc4kf63z2ztmad2h9ahx2wtf95dwv",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1vncw4vpr8ymngw298we8lmp7f2tnm7t76west6",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1vm8dd23276tsxrye4cdreg52esvuc3rml9devc",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
           "address": "desmos1dzn2s7l0wm9kekyazcnhapu8j95n90efmcmrad",
           "coins": [
             {
@@ -2545,12 +1661,912 @@
               "amount": "99698480000000"
             }
           ]
+        },
+        {
+          "address": "desmos1ddvn2zpzntv29sg0r5aha5thk94uckwekjsvu7",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1deav6r6gvxtvx85eg994enluq3kaslj04kmedt",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1wgkeswy784ecs9k6hsm2snzrjrthrn5p050d7j",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1w592hau25nszfaakhdc8s9qte73ylnpay7jh23",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos10zmcwh6x449grcyvtvkk23dvu73kz8rrkupcfr",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos10rgzfkg03n5p5mnu5vfnecwhuswf24ae2td68p",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos10ruy7enmww8x8ukn2kzzw3krgltn7pwjtnhl04",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1057g70sczen2wltr0vgr624yxn438cs346e9u3",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1szmth0042aheqkuydmxjfjm9wugrlv02gy592u",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1srk56nvfzpdjua33ms8cx55juxdps0tdl7cn95",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1svddear9lcdk27sg4dqglaka4tqaw6qqf5gzf9",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1s05pp00ecv44zxey656x89jdjh3p8j2u007y37",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1snmetx9sfrmznr4z6d3lnwlyvwu36sgcpzzhlr",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "300000000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1s42cjzk63rjvn5jeh622ej93dzj7de8mewe27a",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos13cpd55uuptygw0fuwf7dmdc7p9huuvdwvmep0p",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos137c20vhs2p553lj7v5yzrkztjd5rr7z4pedm9d",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1jrld5g998gqm4yx26l6cvhxz7y5adgxquy94nz",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1j93vdl92qtmrp8fff3jskmlxd4cq5653sh9agy",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1jvqpec94x652s5k6gg22q0ppxpus8yz7qx8v7n",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1jsnkzc6ycsecdd0ch9vdlg2ujvr46tnk0qtu39",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nqtxln8td4vhdlztjldedvpmcudd3x0txhjqvm",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nqj3de2rxg385ddfa0jg05ktha4gwkrceu5alp",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1n9660v5lq36cz6x0cgp26hd3g5f8f8pmkvdq2m",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ng8fj3ev0jmdyqxyx3pp5klr9xdz3j4w2c03dr",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1njm853h4h9vh8xge3v9mf7nnukzhgt6zyqxyfr",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1n46ae6mdwjj25zt5wmhuurpf7z6dwmqa8le9ee",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nk29frw3492pekfgtk34m3474wzhyl23ct8dmz",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nh6lnehsgmjgf2z685t3rxjy0h9v2284fpcwpa",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nm8gdv5dpvq5q5yfr6ypsra7j28s5vq9uczmax",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1nmc42azv3uudh7xkhrnnp9ctp9r8t2a87vj4j9",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos15zcn4vd57jdnup3r74f986au3xzshf60y0t8q5",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos15yny9u9z3j3z0crtwwdp6s9dyjvf03cxlhukfz",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos15fpte387ygestt8w3gz7wls0wnsggtvfjzks0z",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos15upqwuee542sxn987gg2n7tf8l5e65ffmxe80c",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos157vyrmqsgue9t2zrvwjau2lsdf8ywjx0qej6qj",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos14q09ww3ue47k7wjc0jynlsq085f7vg5chd2k76",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos148rxxluq3xec2wa8j570s9apnj6fnv4vhlm0e7",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos14j9adwpp660pjhpe8y2uzwc9kdllar4ka7ckk4",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos14kcm753vjxpkxwnct8ery4rtyjc3nhkfah8l8c",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1473r2yl6map88zu52fua04dcpkyhpq9cddmvul",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1kzra08n980nazhjn0pd5ssxr7ppskkv5c7342g",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1hrncsvcx47afflsau2zmcd6lgea9m02l3p4k5s",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1hxpznlpps436xz5s6u3am9fly3detgnwpvm4j2",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1hd4gwtd0nyjha92p3jjpdwpw0ufm5a87pd9ese",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1hdcz99hv65sky355ftsznvwk67jvl4q40pje3y",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1hj4cfddkgtc60xvc26hh8h0jptdtj437h0an62",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1h5f3dywec65v9qulxkmcv3e6yujyh3zm39lr4r",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1huewk6j8tyjy6xjwkcuk6syecfllkty0a0kns4",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1h7h6f03exgeq30jhqlwr8et9vrxw4sl83cfvt3",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1h7crcscc2u29m4e7uuvzsfgqkrq6j3jgyqj6w5",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1c9d63vfut3wuthj2mfhyszygmaj73pf755wgnt",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1c85sccjw3vrux9gnze9d4sfgfw6q4qenp6s9gv",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1cgzcj0jwja032zx7hgjuxruqdvppex3nd6dm3e",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ct2uu96e80xq3d6x4ual4d4sxna678p9qxaryt",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ctan2ty5y9ewrrgsjnpuz8hq0z3h2afr698xez",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1cdnwslsrmeazf0upzs273ws4caa3tvanmta48c",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1c0t5lzlr7rtqpjeypdzyr29p78230mppccnxhs",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1c0cglys5h6ry8s266u9a0kw4jpan5eyx8lhsna",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1cnnhvfhed6yxllupeqzhdnle4jws357w2kagk3",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1chvyq5k36dld6mgv59yuut0m8qw4k8wdt2f864",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1c6x3ngzedvqva67nx6ay7vsuw8u79ck0qftdc9",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1c7sdzjpfur988p636httrduacqc33s3x9ufzjh",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ernh92vrx95fm3a3cyy4am6xc5y0fvavux6gze",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ewy6w9ea2dlu22qguk3uluu35pdfvsn2faslg8",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ewt23x27qlm54fax0lygsa8g2xd9xe5vafeqzc",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1e50ff5mhz57atjjjmx7jarm37sl6d4ky5kfqtw",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ekuglhe5lqnjertq8x7z98nr5c5nekecgxyk3j",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ehg3zwfc8axqugqk4e8nrvl5n0kxq8v5hvevvh",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1eh00ltj63q7pns64x83pqyadvp6pwgzlgt3jx0",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1e7g9l8kcdky5ajetrsr5huthg02dk2wkyljksz",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos16gcntemxx2ghvqg0zkyzm8tpy9up8u6guyda5h",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos16v6pcp6tjqk9np20jv0zw7wy7ehqy7g3asxt67",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos16s4shsdadlszdjvawtyu66rwlu0epzxmwngqaw",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos164v3gfsetnhr8dthhkw7nljwkj3vdd6d0z9y9t",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos164kcy3s0pqfall3r837n82l24alc6l36ky56ld",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos16c60y8t8vra27zjg2arlcd58dck9cwn7p6fwtd",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos16lms7j8f6nqz55lpj89y5gvmhllupx2le6hup8",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1m8eycm0s57jgcscv2h3kjq4xlqfjmgytt02pt5",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1mvzqp9tpguff25ynt8twaqg8l49jkgt3gggxhd",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1m5svpfpcdfel53k46ax8a2y4rr6j6tj3n8vxwg",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1urucku3eava6ez6vnrd26elqzytn7rmcpz2vg7",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1ugu2hzh6yv7wcxx8y992zjwyj0sdz87hu0sh56",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1u2uj5sffz55ky252qyfsq9x8965aty3ffhvg4l",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1u0dae8r8hay6r2gvccegg2fz6ryftf2wh76qre",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1u533s9gjw5hm3ngv6k7e2ett554kd7vmgtpjfz",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1u7rcahyhsxcaqfggn8ph23sse6gkdhymwg2xlw",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1a2kwtpvam7gh7rel2m4hdkc2ee5pftf6rf5xwq",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1awrg9y8lv7695as65rjcngl77hzxz5h4w69pap",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1aatv3x3hgh06h72gjyyjtgvva2cm7x3tuvle3n",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1aa5atf0mem08fgefhcsu6rc0qd6as2yydh4e4m",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1aalrfq8uekku9djjuzxdv353hranc9l20ghjzj",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos17ruq8femrt8yqpv5tmdvycl0m9quqcj8wu2y9s",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos17yx9jullk7enj8rtsqz6zsaze0wnnxqmhrtj28",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos17d9tmdk7qgzxc0eqc4v74jkx6g87j6huqwgrkg",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos17s0mzkxetf0jj8wg48ys68ynrlg7u29sf8jncq",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1lzzctd3a839xxk7vf4cwuhcvgcnmxrhrcn93qt",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1lrs3a8y9ugs0nze6dua70l29zvx3lxy895pcdp",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1lxrfucwcaj0dp0ssjqt2qs30e6e2veyzm38uh3",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1lslgfya9dckc79p7hfllx0xjgq89yn4sv400hn",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "desmos1l7j6w8t282p3jnngz6e096y3wnk8j7nz2y052q",
+          "coins": [
+            {
+              "denom": "udaric",
+              "amount": "10000000"
+            }
+          ]
         }
       ],
       "supply": [
         {
           "denom": "udaric",
-          "amount": "100000000000000"
+          "amount": "100000010000000"
         }
       ],
       "denom_metadata": []
@@ -3603,7 +3619,7 @@
                 "description": {
                   "details": "...",
                   "identity": "",
-                  "moniker": "<Your validator moniker>",
+                  "moniker": "\u003cYour validator moniker\u003e",
                   "security_contact": "...",
                   "website": "..."
                 },
@@ -5187,7 +5203,7 @@
                 },
                 "delegator_address": "desmos1n9660v5lq36cz6x0cgp26hd3g5f8f8pmkvdq2m",
                 "description": {
-                  "details": "Well-being & tech work, actively seeking to make the world better. Running masternode, validators & bakers since 2017.",
+                  "details": "Well-being \u0026 tech work, actively seeking to make the world better. Running masternode, validators \u0026 bakers since 2017.",
                   "identity": "",
                   "moniker": "MindHeartSoul",
                   "security_contact": "koen@mind-heart-soul.org",
