@@ -1,0 +1,7 @@
+{
+  "binaries": {
+    "linux/amd64": "https://github.com/desmos-labs/desmos/releases/download/v0.16.3/desmos-amd64.zip?checksum=sha256:5a5d96a9bdc17fc4fa2250dafcf479428843c6de10c3a1b90b662866cad8d9c1",
+    "linux/arm32": "https://github.com/desmos-labs/desmos/releases/download/v0.16.3/desmos-arm32.zip?checksum=sha256:a68b4e6a50dbf2f2f888f2dbaa188714a3359a186afd6f44a83c79d6b78e4f94",
+    "linux/arm64": "https://github.com/desmos-labs/desmos/releases/download/v0.16.3/desmos-arm64.zip?checksum=sha256:98627992ee7e9a9a364127377da58e186dd1c42282f6cb35eeb6902c58f28ea3"
+  }
+}
