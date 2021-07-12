@@ -1,7 +1,7 @@
 # Morpheus testnets
 This is the official repository containing all the [Desmos](https://github.com/desmos-labs/desmos) testnets' data.
 
-> The latest testnet is `morpheus-apollo-1`
+> The latest testnet is `morpheus-apollo-2`
 
 All the data is grouped inside different subfolders named after the testnets themselves.
 
