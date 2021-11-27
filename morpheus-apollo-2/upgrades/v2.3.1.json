@@ -1,0 +1,8 @@
+{
+  "binaries": {
+    "darwin/amd64": "https://github.com/desmos-labs/desmos/releases/download/v2.3.1/desmos-2.3.1-darwin-amd64?checksum=sha256:ef61468b9fb8eda57a03180b8ec1f39137fb96554b8dda7e46850bb545a51b1a",
+    "linux/amd64": "https://github.com/desmos-labs/desmos/releases/download/v2.3.1/desmos-2.3.1-linux-amd64?checksum=sha256:55d8781efa19446a5bf2c4ece15d98f3e5738e2959acbcc453baf0323ca40a49",
+    "linux/arm64": "https://github.com/desmos-labs/desmos/releases/download/v2.3.1/desmos-2.3.1-linux-arm64?checksum=sha256:9a27fd01c5ec481bef06e97da6705a5a1ffe07a664dd116e5f64e8d0c6291b5e",
+    "windows/amd64": "https://github.com/desmos-labs/desmos/releases/download/v2.3.1/desmos-2.3.1-windows-amd64.exe?checksum=sha256:575aa070b113a2827ceeaef3a2421794c3803b6c87619444f79b86aef7e4cedc"
+  }
+}
