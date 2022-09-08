@@ -1,0 +1,5 @@
+{
+  "binaries": {
+    "linux/amd64": "https://github.com/desmos-labs/desmos/releases/download/v4.4.1/desmos-4.4.1-linux-amd64?checksum=sha256:effadb6abfffff2995ad63284acb87a9db22e570e66699701d8a74cd4e8470a3"
+  }
+}
