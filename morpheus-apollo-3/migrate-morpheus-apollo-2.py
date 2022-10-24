@@ -21,6 +21,14 @@ with open(input_file, 'r') as f:
             relationships.append(relationship)
     data['app_state']['relationships']['relationships'] = relationships
 
+    # Clean invalid reactions
+    reactions = []
+    for reaction in data['app_state']['reactions']['reactions']:
+        if reaction['subspace_id'] == '5' and reaction['post_id'] == '9' and reaction['id'] == 2:
+            continue
+        reactions.append(reaction)
+    data['app_state']['reactions']['reactions'] = reactions
+
     # Set the new chain id
     print("Setting new chain id")
     data['chain_id'] = 'morpheus-apollo-3'
