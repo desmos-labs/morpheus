@@ -1,4 +1,4 @@
-# Morpheus Apollo 2
+# Morpheus Apollo 3
 
 ## Chain data
 | Data         |            Value             | 
@@ -87,3 +87,29 @@ on `morpheus-13001`. This translates to:
 
 ## Faucet
 To get some testnet tokens, use the bot on the [#ask-tokens channel](https://discord.gg/kWPzn6PuzM) on the [Desmos Discord server](https://discord.gg/kWPzn6PuzM).
+
+## Endpoints
+### RPC
+```
+https://rpc.morpheus.desmos.network:443
+```
+
+### Web socket
+```
+wss://ws.morpheus.desmos.network:443
+```
+
+### gRPC
+```
+https://grpc.morpheys.desmos.network:443
+```
+
+### Legacy APIs
+```
+https://lcd.morpheus.desmos.network:443
+```
+
+### GraphQL
+```
+https://gql.morpheus.desmos.network/v1/graphql
+```
