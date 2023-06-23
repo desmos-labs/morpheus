@@ -1,0 +1,5 @@
+{
+  "binaries": {
+    "linux/amd64": "https://github.com/desmos-labs/desmos/releases/download/v5.2.0/desmos-5.2.0-linux-amd64?checksum=sha256:6effb01e10efabeeaa8121dc3225a36d83a1f1525959a5d8bb7d638daa27617e"
+  }
+}
