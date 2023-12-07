@@ -1,5 +1,5 @@
 {
   "binaries": {
-    "linux/amd64": "https://github.com/desmos-labs/desmos/releases/download/v6.3.0/desmos-6.3.0-linux-amd64?checksum=sha256:2184d66d887675e2d36097cfd48993622a2e313adb234d14b75f547af197a07a"
+    "linux/amd64": "https://github.com/desmos-labs/desmos/releases/download/v6.3.1/desmos-6.3.1-linux-amd64?checksum=sha256:ebab5f6641c704b85aa595f3a433bccd61629ec7b9d8d01c29d72f1547aab4a0"
   }
 }
